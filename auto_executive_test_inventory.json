@@ -1,0 +1,176 @@
+{
+  "updated_at": "2026-11-20T11:20:42.351410+00:00",
+  "test_feed": true,
+  "vehicles": [
+    {
+      "id": "ae-001",
+      "title": "2006 Acura RL SH-AWD w/Navigation 3.5L",
+      "year": 2006,
+      "make": "Acura",
+      "model": "RL SH-AWD w/Navigation 3.5L",
+      "mileage": 118527,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-002",
+      "title": "2007 Cadillac CTS",
+      "year": 2007,
+      "make": "Cadillac",
+      "model": "CTS",
+      "mileage": 31541,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-003",
+      "title": "1984 Cadillac Eldorado Convertible & Hardtop – 2 Vehicle Project Package",
+      "year": 1984,
+      "make": "Cadillac",
+      "model": "Eldorado Convertible & Hardtop – 2 Vehicle Project Package",
+      "mileage": 97816,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-004",
+      "title": "1984 Cadillac Eldorado Hardtop – Classic Cadillac Project",
+      "year": 1984,
+      "make": "Cadillac",
+      "model": "Eldorado Hardtop – Classic Cadillac Project",
+      "mileage": 999999,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-005",
+      "title": "2019 Cadillac XTS Premium Luxury AWD",
+      "year": 2019,
+      "make": "Cadillac",
+      "model": "XTS Premium Luxury AWD",
+      "mileage": 117401,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-006",
+      "title": "1997 Chevrolet Impala Wagon – Classic Project / LS Swap Candidate",
+      "year": 1997,
+      "make": "Chevrolet",
+      "model": "Impala Wagon – Classic Project / LS Swap Candidate",
+      "mileage": 999999,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-007",
+      "title": "2014 Chevrolet Spark LT Hatchback",
+      "year": 2014,
+      "make": "Chevrolet",
+      "model": "Spark LT Hatchback",
+      "mileage": 54529,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-008",
+      "title": "1991 Ford Bronco XLT 4WD – 5.8L V8",
+      "year": 1991,
+      "make": "Ford",
+      "model": "Bronco XLT 4WD – 5.8L V8",
+      "mileage": 85475,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-009",
+      "title": "2002 Honda CR-V LX 2.4L",
+      "year": 2002,
+      "make": "Honda",
+      "model": "CR-V LX 2.4L",
+      "mileage": 204092,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-010",
+      "title": "2015 Jeep Grand Cherokee Overland",
+      "year": 2015,
+      "make": "Jeep",
+      "model": "Grand Cherokee Overland",
+      "mileage": 114032,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-011",
+      "title": "2013 Lexus GX 460 4WD",
+      "year": 2013,
+      "make": "Lexus",
+      "model": "GX 460 4WD",
+      "mileage": 124111,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-012",
+      "title": "2010 Lexus RX 350",
+      "year": 2010,
+      "make": "Lexus",
+      "model": "RX 350",
+      "mileage": 137394,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-013",
+      "title": "2021 Mercedes-Benz GLA 250 4MATIC",
+      "year": 2021,
+      "make": "Mercedes-Benz",
+      "model": "GLA 250 4MATIC",
+      "mileage": 71245,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-014",
+      "title": "2016 Ram 3500 Laramie Crew Cab 4x4 Dually",
+      "year": 2016,
+      "make": "Ram",
+      "model": "3500 Laramie Crew Cab 4x4 Dually",
+      "mileage": 69631,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-015",
+      "title": "2016 Toyota Sienna SE Premium 8 Passenger",
+      "year": 2016,
+      "make": "Toyota",
+      "model": "Sienna SE Premium 8 Passenger",
+      "mileage": 119421,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-016",
+      "title": "2012 Volkswagen Passat S 2.5L – Great Condition!",
+      "year": 2012,
+      "make": "Volkswagen",
+      "model": "Passat S 2.5L – Great Condition!",
+      "mileage": 105901,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-017",
+      "title": "1984 Volkswagen Vanagon Passenger Van – 1.9L",
+      "year": 1984,
+      "make": "Volkswagen",
+      "model": "Vanagon Passenger Van – 1.9L",
+      "mileage": 999999,
+      "photos": [],
+      "pricing_label": "CALL FOR PRICING"
+    }
+  ]
+}
