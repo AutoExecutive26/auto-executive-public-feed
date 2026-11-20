@@ -469,9 +469,15 @@ def save_image(session, url, dest_dir, relaxed=False):
     if Image is not None:
         try:
             img = Image.open(io.BytesIO(data))
+            if img.mode in ("P", "LA", "RGBA"):
+                rgba = img.convert("RGBA")
+                flat = Image.new("RGB", rgba.size, (255, 255, 255))
+                flat.paste(rgba, mask=rgba.split()[3])
+                img = flat
             img = img.convert("RGB")
             if img.width < 300:        # tiny images are icons or thumbnails
                 REJECTED.add(stem)
+                print(f"    photo skipped: only a thumbnail ({img.width}px wide)")
                 return None
             if img.width > MAX_WIDTH:
                 height = round(img.height * MAX_WIDTH / img.width)
@@ -565,6 +571,25 @@ def remove_sold_car_photos(active_ids):
             print(f"Removed photos for sold car {folder.name}")
 
 
+def dump_debug(source_id, html):
+    """Save a car page and list every picture-like or data-feed link in it."""
+    Path("debug").mkdir(exist_ok=True)
+    Path(f"debug/car-{source_id}.html").write_text(html, encoding="utf-8")
+    pics = sorted(set(re.findall(
+        r"""["'(]([^"'()\s]*(?:picture|photo|image|gallery|slide)[^"'()\s]*)""",
+        html, re.I)))
+    feeds = sorted(set(re.findall(
+        r"""["'](/[^"'\s]*(?:api|json|ajax|photos|images)[^"'\s]*)["']""",
+        html, re.I)))
+    print(f"    DEBUG car page {source_id}: {len(html)} characters")
+    print(f"    DEBUG {len(pics)} picture-like strings:")
+    for item in pics[:40]:
+        print(f"      {item}")
+    print(f"    DEBUG {len(feeds)} possible data links:")
+    for item in feeds[:20]:
+        print(f"      {item}")
+
+
 def main():
     session = requests.Session()
 
@@ -578,6 +603,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
+    print("Script version: 7 (relaxed fallback + debug dump)")
     print("Car detector:", "ON" if YOLO is not None else "OFF (not installed)")
     load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
@@ -596,6 +622,9 @@ def main():
         if not html:
             print(f"[{index}/{len(cars)}] SKIPPED {url} (could not load)")
             continue
+
+        if index <= 3:
+            dump_debug(source_id, html)
 
         soup = BeautifulSoup(html, "html.parser")
         title = find_title(soup)
