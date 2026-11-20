@@ -71,10 +71,16 @@ CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # A cutout is only used if the car fills between these shares of the photo.
 # This drops interior shots, close-ups and failed cutouts.
 MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
-STYLE_VERSION = "v2"                 # bump to force every photo to be redone
+STYLE_VERSION = "v3"                 # bump to force every photo to be redone
 MAX_CANDIDATES = 8         # photos tried per car; the cleanest ones are kept
 MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
-ERODE_PX = 6               # used to separate the main car from things touching it
+MASK_ALPHA = 160           # how solid a pixel must be to count as part of the car
+ERODE_PX = 9               # used to separate the main car from things touching it
+# Dealer logo / watermark area of the ORIGINAL photo, as fractions of its size:
+# (left, top, right, bottom). Everything inside is erased before the cutout.
+# If a photo's car reaches far into this box, the photo is skipped instead.
+WATERMARK_BOX = (0.70, 0.68, 1.0, 1.0)
+MAX_WATERMARK_OVERLAP = 0.12
 MAX_REMOVED_SHARE = 0.30   # more than this removed = several cars in frame, skip
 EDGE_PX = 2                # car touching the left/right edge = cut off, skip
 MIN_RATIO, MAX_RATIO = 1.3, 4.8   # width/height of a normal exterior car shot
@@ -283,11 +289,25 @@ def replace_background(img):
 
     cutout = rembg_remove(img, session=_rembg_session).convert("RGBA")
     alpha = np.asarray(cutout.split()[3]).copy()
-    mask = alpha > 128
+    mask = alpha > MASK_ALPHA
     car_px = int(mask.sum())
     share = car_px / mask.size
     if not (MIN_CAR_SHARE <= share <= MAX_CAR_SHARE):
         return None
+
+    # Erase the dealer-logo corner; skip the photo if the car itself is there.
+    if WATERMARK_BOX:
+        rows, cols = mask.shape
+        bx0, by0, bx1, by1 = WATERMARK_BOX
+        box = np.zeros_like(mask)
+        box[int(by0 * rows):int(by1 * rows), int(bx0 * cols):int(bx1 * cols)] = True
+        if (mask & box).sum() / max(car_px, 1) > MAX_WATERMARK_OVERLAP:
+            return None
+        mask = mask & ~box
+        alpha = np.where(box, 0, alpha)
+        car_px = int(mask.sum())
+        if car_px == 0:
+            return None
 
     # Keep only the main vehicle: shrink the mask so objects touching it
     # (other cars, signs) come apart, keep the biggest piece, grow it back.
