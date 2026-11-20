@@ -29,9 +29,20 @@ import requests
 from bs4 import BeautifulSoup
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageDraw, ImageFilter
 except ImportError:  # photos are still saved, just not resized
     Image = None
+
+try:
+    import numpy as np
+except ImportError:
+    np = None
+
+try:
+    from rembg import new_session, remove as rembg_remove
+except ImportError:
+    rembg_remove = None
+    new_session = None
 
 # ---- Settings you may want to change ---------------------------------------
 BASE = "https://sunshineautobrokers.com"
@@ -46,6 +57,16 @@ MIN_EXPECTED = 30          # refuse to overwrite the feed with fewer cars than t
 MAX_PHOTOS = 5             # photos saved per car (keeps the repo small)
 MAX_WIDTH = 1000           # photos are shrunk to this width in pixels
 MAX_DOWNLOAD_BYTES = 8_000_000
+# Backdrop for every photo. Choose one:
+#   "blackgold" = gold glow in the middle fading to black at the edges
+#   "gold"      = solid gold look
+#   "none"      = keep the original photo scenery (not recommended)
+BACKGROUND_STYLE = "blackgold"
+CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
+# A cutout is only used if the car fills between these shares of the photo.
+# This drops interior shots, close-ups and failed cutouts.
+MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.80
+STYLE_VERSION = "v1"                 # bump to force every photo to be redone
 DELAY_SECONDS = 0.6        # pause between requests, to be polite to the source
 # Words that must never appear in titles on your site (case-insensitive)
 BANNED_WORDS = ["sunshine auto", "sunshine"]
@@ -193,13 +214,82 @@ def find_photos(soup, page_url, raw_html):
     return found
 
 
+_rembg_session = None
+
+
+def make_backdrop():
+    """Build the uniform background as an RGB image."""
+    w, h = CANVAS_W, CANVAS_H
+    ys, xs = np.mgrid[0:h, 0:w].astype("float32")
+    if BACKGROUND_STYLE == "gold":
+        t = (ys / h)[..., None]                     # light on top, deeper below
+        top = np.array([224, 194, 118], dtype="float32")     # #e0c276
+        bottom = np.array([163, 125, 49], dtype="float32")   # #a37d31
+        arr = top * (1 - t) + bottom * t
+        d = np.sqrt(((xs - w / 2) / (w / 2)) ** 2 + ((ys - h / 2) / (h / 2)) ** 2)
+        arr *= (1 - 0.18 * np.clip(d, 0, 1.2) ** 2)[..., None]   # soft vignette
+    else:                                            # "blackgold"
+        d = np.sqrt(((xs - w / 2) / (w / 2)) ** 2 + ((ys - h * 0.55) / (h / 2)) ** 2)
+        t = (np.clip(d / 1.15, 0, 1) ** 1.3)[..., None]
+        centre = np.array([215, 173, 84], dtype="float32")   # #d7ad54
+        edge = np.array([8, 8, 8], dtype="float32")          # #080808
+        arr = centre * (1 - t) + edge * t
+    return Image.fromarray(np.clip(arr, 0, 255).astype("uint8"), "RGB")
+
+
+def replace_background(img):
+    """
+    Cut the car out of the photo and place it on the uniform backdrop.
+    Returns a new RGB image, or None if the cutout doesn't look like a
+    usable exterior car photo.
+    """
+    global _rembg_session
+    if _rembg_session is None:
+        _rembg_session = new_session("isnet-general-use")
+
+    cutout = rembg_remove(img, session=_rembg_session).convert("RGBA")
+    alpha = cutout.split()[3]
+    share = float((np.asarray(alpha) > 128).mean())
+    if not (MIN_CAR_SHARE <= share <= MAX_CAR_SHARE):
+        return None
+
+    box = alpha.point(lambda p: 255 if p > 40 else 0).getbbox()
+    if not box:
+        return None
+    cutout = cutout.crop(box)
+
+    scale = min(CANVAS_W * 0.88 / cutout.width, CANVAS_H * 0.74 / cutout.height)
+    cutout = cutout.resize(
+        (max(1, round(cutout.width * scale)), max(1, round(cutout.height * scale))),
+        Image.LANCZOS,
+    )
+
+    canvas = make_backdrop().convert("RGBA")
+    x = (CANVAS_W - cutout.width) // 2
+    bottom = round(CANVAS_H * 0.90)
+    y = bottom - cutout.height
+
+    # Soft shadow under the car so it doesn't look pasted on
+    shadow = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    sw, sh = round(cutout.width * 0.92), round(CANVAS_H * 0.07)
+    ImageDraw.Draw(shadow).ellipse(
+        [(CANVAS_W - sw) // 2, bottom - sh // 2, (CANVAS_W + sw) // 2, bottom + sh // 2],
+        fill=(0, 0, 0, 150),
+    )
+    shadow = shadow.filter(ImageFilter.GaussianBlur(12))
+    canvas = Image.alpha_composite(canvas, shadow)
+    canvas.alpha_composite(cutout, (x, y))
+    return canvas.convert("RGB")
+
+
 def save_image(session, url, dest_dir):
     """
     Download one photo into dest_dir. Returns the saved file name, or None.
-    The file name is a hash of the source URL, so a photo already saved on a
-    previous run is not downloaded again.
+    The file name is a hash of the source URL and backdrop style, so a photo
+    already saved on a previous run is not downloaded or processed again.
     """
-    name = hashlib.sha1(url.encode()).hexdigest()[:12] + ".jpg"
+    key = f"{url}|{BACKGROUND_STYLE}|{STYLE_VERSION}"
+    name = hashlib.sha1(key.encode()).hexdigest()[:12] + ".jpg"
     dest = dest_dir / name
     if dest.exists():
         return name
@@ -226,6 +316,11 @@ def save_image(session, url, dest_dir):
             if img.width > MAX_WIDTH:
                 height = round(img.height * MAX_WIDTH / img.width)
                 img = img.resize((MAX_WIDTH, height), Image.LANCZOS)
+            if BACKGROUND_STYLE != "none":
+                img = replace_background(img)
+                if img is None:
+                    print("    photo skipped (no clear exterior car shot)")
+                    return None
             buf = io.BytesIO()
             img.save(buf, "JPEG", quality=80, optimize=True)
             data = buf.getvalue()
@@ -283,6 +378,14 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
+    if BACKGROUND_STYLE != "none" and (
+        Image is None or np is None or rembg_remove is None
+    ):
+        print(
+            "ERROR: background replacement needs pillow, numpy and rembg "
+            "installed. Feed left unchanged."
+        )
+        sys.exit(1)
 
     vehicles = []
     for index, (source_id, url) in enumerate(cars.items(), start=1):
