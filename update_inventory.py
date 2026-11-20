@@ -77,7 +77,7 @@ CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # This drops interior shots, close-ups and failed cutouts.
 MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
 STYLE_VERSION = "v6"                 # bump to force every photo to be redone
-MAX_CANDIDATES = 8         # photos tried per car; the cleanest ones are kept
+MAX_CANDIDATES = 12        # photos tried per car; the cleanest ones are kept
 MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
 DETECTOR_MODEL = "yolov8m-seg.pt"   # finds each separate car in a photo
 GATE_PX = 14               # how far outside the detected car the cutout may reach
@@ -91,6 +91,7 @@ MAX_WATERMARK_OVERLAP = 0.12
 MAX_REMOVED_SHARE = 0.30   # more than this removed = several cars in frame, skip
 EDGE_PX = 2                # car touching the left/right edge = cut off, skip
 MIN_RATIO, MAX_RATIO = 1.3, 4.8   # width/height of a normal exterior car shot
+USE_FALLBACK = True        # False = a car with no clean photo shows "PHOTO COMING SOON"
 PHOTO_CACHE = Path("photo_cache.json")        # remembers photos already rejected
 BLOCKLIST_FILE = Path("photo_blocklist.txt")  # photos you never want shown
 DELAY_SECONDS = 0.6        # pause between requests, to be polite to the source
@@ -196,7 +197,35 @@ def find_mileage(page_text):
     return None
 
 
-def find_photos(soup, page_url, raw_html):
+def find_gallery(soup, raw_html, car_key):
+    """
+    The dealer lists every photo of a car as
+    .../service/picture/<dealer>/<car>/<long hex code>   (no file extension).
+    Returns them in page order, main photo first, only for this car.
+    """
+    pattern = (r"https?://[^\s\"'<>\\]*/service/picture/\d+/"
+               + re.escape(str(car_key)) + r"/[0-9a-f]{20,}")
+    hits = []
+    for m in re.finditer(pattern, raw_html):
+        url = m.group(0).replace("http://", "https://", 1)
+        if url not in hits:
+            hits.append(url)
+    # the page's own "main photo" tag goes first, if it is one of them
+    for meta in soup.find_all("meta", attrs={"property": "og:image"}):
+        main = (meta.get("content") or "").replace("http://", "https://", 1)
+        if main in hits:
+            hits.remove(main)
+            hits.insert(0, main)
+            break
+    return hits
+
+
+def find_photos(soup, page_url, raw_html, car_key=None):
+    if car_key:
+        gallery = find_gallery(soup, raw_html, car_key)
+        if len(gallery) >= 2:
+            return gallery
+
     found = []
 
     def add(url):
@@ -265,6 +294,7 @@ def make_backdrop():
 
 REJECTED = set()
 BLOCKLIST = set()
+BLOCKED_TITLES = set()
 REJECT_COUNTS = {}
 LAST_REJECT_REASON = ""
 
@@ -284,8 +314,14 @@ def load_photo_lists():
         pass
     try:
         for line in BLOCKLIST_FILE.read_text().splitlines():
-            if not line.strip().startswith("#"):
-                BLOCKLIST.update(re.findall(r"\b[0-9a-f]{12}\b", line))
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            hashes = re.findall(r"\b[0-9a-f]{12}\b", line)
+            if hashes:
+                BLOCKLIST.update(hashes)          # one specific photo
+            else:
+                BLOCKED_TITLES.add(line.lower())  # every photo of a car, by title
     except OSError:
         pass
 
@@ -507,19 +543,21 @@ def save_image(session, url, dest_dir, relaxed=False):
 def save_photos(session, car_id, source_urls):
     """Process several photos, keep the cleanest ones, return public links."""
     car_dir = PHOTO_DIR / car_id
-    candidates = []
-    for url in source_urls[:MAX_CANDIDATES]:
+    candidates = []                    # (file name, score, ranking)
+    for idx, url in enumerate(source_urls[:MAX_CANDIDATES]):
         time.sleep(DELAY_SECONDS / 2)
         result = save_image(session, url, car_dir)
         if result and result[1] >= MIN_SCORE and result[0] not in [c[0] for c in candidates]:
-            candidates.append(result)
+            # cleanest cutout wins; the dealer's lead photos get a small bonus
+            bonus = max(0, 10 - 2 * idx)
+            candidates.append((result[0], result[1], result[1] + bonus))
 
-    candidates.sort(key=lambda c: -c[1])           # cleanest photo first
-    keep = [name for name, _ in candidates[:MAX_PHOTOS]]
+    candidates.sort(key=lambda c: -c[2])
+    keep = [c[0] for c in candidates[:MAX_PHOTOS]]
 
     # Fallback: no clean photo passed, so take the best imperfect ones
     # rather than leaving the car with no picture at all.
-    if not keep:
+    if not keep and USE_FALLBACK:
         relaxed_found = []
         for url in source_urls[:MAX_CANDIDATES]:
             time.sleep(DELAY_SECONDS / 2)
@@ -556,6 +594,11 @@ def make_preview(vehicles):
             sheet.paste(Image.open(path).convert("RGB").resize((tw, th)), (x, y))
         else:
             draw.text((x + 12, y + th // 2), "NO PHOTO", fill=(215, 173, 84))
+        if v["photos"]:
+            m = re.search(r"-(\d{2})\.jpg$", v["photos"][0])
+            if m and int(m.group(1)) < MIN_SCORE:
+                draw.text((x + 7, y + th - 16), "FALLBACK", fill=(0, 0, 0))
+                draw.text((x + 6, y + th - 17), "FALLBACK", fill=(255, 70, 70))
         label = v["title"][:40]
         draw.text((x + 7, y + 7), label, fill=(0, 0, 0))
         draw.text((x + 6, y + 6), label, fill=(255, 255, 255))
@@ -603,7 +646,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
-    print("Script version: 7 (relaxed fallback + debug dump)")
+    print("Script version: 9 (full photo gallery)")
     print("Car detector:", "ON" if YOLO is not None else "OFF (not installed)")
     load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
@@ -623,7 +666,7 @@ def main():
             print(f"[{index}/{len(cars)}] SKIPPED {url} (could not load)")
             continue
 
-        if index <= 3:
+        if index <= 1:
             dump_debug(source_id, html)
 
         soup = BeautifulSoup(html, "html.parser")
@@ -634,8 +677,17 @@ def main():
 
         car_id = f"ae-{source_id}"
         year, make, model = split_title(title)
-        source_photos = find_photos(soup, url, html)
-        photos = save_photos(session, car_id, source_photos)
+        source_photos = find_photos(soup, url, html, source_id)
+        if any(t in title.lower() for t in BLOCKED_TITLES):
+            photos = []
+            if (PHOTO_DIR / car_id).exists():
+                shutil.rmtree(PHOTO_DIR / car_id)
+            print(f"    photos hidden on purpose (listed in {BLOCKLIST_FILE})")
+        else:
+            photos = save_photos(session, car_id, source_photos)
+        scores = [int(m.group(1)) for u_ in photos
+                  for m in [re.search(r"-(\d{2})\.jpg$", u_)] if m]
+        is_fallback = bool(scores) and max(scores) < MIN_SCORE
         mileage = find_mileage(soup.get_text(" ", strip=True))
 
         vehicles.append(
@@ -653,6 +705,7 @@ def main():
         print(
             f"[{index}/{len(cars)}] {title} | found {len(source_photos)}, "
             f"saved {len(photos)} photos | miles: {mileage}"
+            + (" | FALLBACK PHOTO" if is_fallback else "")
         )
 
     save_rejected()
