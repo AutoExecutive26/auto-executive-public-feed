@@ -71,7 +71,7 @@ CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # A cutout is only used if the car fills between these shares of the photo.
 # This drops interior shots, close-ups and failed cutouts.
 MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
-STYLE_VERSION = "v3"                 # bump to force every photo to be redone
+STYLE_VERSION = "v4"                 # bump to force every photo to be redone
 MAX_CANDIDATES = 8         # photos tried per car; the cleanest ones are kept
 MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
 MASK_ALPHA = 160           # how solid a pixel must be to count as part of the car
@@ -258,6 +258,16 @@ def make_backdrop():
 
 REJECTED = set()
 BLOCKLIST = set()
+REJECT_COUNTS = {}
+LAST_REJECT_REASON = ""
+
+
+def reject(reason):
+    """Remember why a photo was skipped, so the log can show it."""
+    global LAST_REJECT_REASON
+    LAST_REJECT_REASON = reason
+    REJECT_COUNTS[reason] = REJECT_COUNTS.get(reason, 0) + 1
+    return None
 
 
 def load_photo_lists():
@@ -293,7 +303,7 @@ def replace_background(img):
     car_px = int(mask.sum())
     share = car_px / mask.size
     if not (MIN_CAR_SHARE <= share <= MAX_CAR_SHARE):
-        return None
+        return reject("car too small or too big in the frame")
 
     # Erase the dealer-logo corner; skip the photo if the car itself is there.
     if WATERMARK_BOX:
@@ -302,12 +312,12 @@ def replace_background(img):
         box = np.zeros_like(mask)
         box[int(by0 * rows):int(by1 * rows), int(bx0 * cols):int(bx1 * cols)] = True
         if (mask & box).sum() / max(car_px, 1) > MAX_WATERMARK_OVERLAP:
-            return None
+            return reject("car reaches into the logo corner")
         mask = mask & ~box
         alpha = np.where(box, 0, alpha)
         car_px = int(mask.sum())
         if car_px == 0:
-            return None
+            return reject("nothing left after erasing the logo corner")
 
     # Keep only the main vehicle: shrink the mask so objects touching it
     # (other cars, signs) come apart, keep the biggest piece, grow it back.
@@ -316,25 +326,25 @@ def replace_background(img):
         core = ndimage.binary_erosion(mask, iterations=ERODE_PX)
         labels, count = ndimage.label(core)
         if count == 0:
-            return None
+            return reject("no solid car shape found")
         sizes = ndimage.sum(core, labels, range(1, count + 1))
         main = labels == (int(np.argmax(sizes)) + 1)
         keep = ndimage.binary_dilation(main, iterations=ERODE_PX + 2) & mask
 
     removed = 1 - int(keep.sum()) / max(car_px, 1)
     if removed > MAX_REMOVED_SHARE:
-        return None                     # several vehicles or clutter
+        return reject("other cars or objects in the frame")                     # several vehicles or clutter
 
     ys, xs = np.where(keep)
     if len(xs) == 0:
-        return None
+        return reject("empty cutout")
     x0, x1, y0, y1 = int(xs.min()), int(xs.max()), int(ys.min()), int(ys.max())
     height, width = keep.shape
     if x0 <= EDGE_PX or x1 >= width - 1 - EDGE_PX:
-        return None                     # car is cut off by the side of the photo
+        return reject("car cut off by the side of the photo")                     # car is cut off by the side of the photo
     ratio = (x1 - x0 + 1) / (y1 - y0 + 1)
     if not (MIN_RATIO <= ratio <= MAX_RATIO):
-        return None                     # not a normal exterior car shape
+        return reject("not a normal car shape (too tall or too wide)")                     # not a normal exterior car shape
 
     cutout.putalpha(Image.fromarray(np.where(keep, alpha, 0).astype("uint8")))
     cutout = cutout.crop((x0, y0, x1 + 1, y1 + 1))
@@ -406,7 +416,7 @@ def save_image(session, url, dest_dir):
             if BACKGROUND_STYLE != "none":
                 result = replace_background(img)
                 if result is None:
-                    print("    photo skipped (not a clean single-car exterior shot)")
+                    print(f"    photo skipped: {LAST_REJECT_REASON}")
                     REJECTED.add(stem)
                     return None
                 img, score = result
@@ -516,6 +526,10 @@ def main():
         )
 
     save_rejected()
+    if REJECT_COUNTS:
+        print("\nWhy photos were skipped this run:")
+        for reason, count in sorted(REJECT_COUNTS.items(), key=lambda kv: -kv[1]):
+            print(f"  {count:4d}  {reason}")
     with_photos = sum(1 for v in vehicles if v["photos"])
     print(f"\nBuilt {len(vehicles)} vehicles, {with_photos} with photos.")
 
