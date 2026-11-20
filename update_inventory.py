@@ -1,32 +1,55 @@
 #!/usr/bin/env python3
 """
 Builds auto_executive_test_inventory.json from the source dealer's plain
-"legacy" inventory pages.
+"legacy" inventory pages, and saves the car photos into this repo so the
+public feed never points back to the source site.
 
 1. Reads the full list page and collects every car link.
 2. Opens each car page for the title, mileage and photo URLs.
-3. Writes everything to the JSON file your Squarespace page reads.
+3. Downloads the photos into photos/<car id>/ (resized, a few per car).
+4. Writes the JSON file your Squarespace page reads. Photo links in it
+   point only to your own GitHub repo.
 
 Safety: if far fewer cars than expected are found (for example the source
 site blocks us), the existing JSON file is left untouched and the run fails.
 """
 
+import hashlib
+import io
 import json
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from PIL import Image
+except ImportError:  # photos are still saved, just not resized
+    Image = None
+
+# ---- Settings you may want to change ---------------------------------------
 BASE = "https://sunshineautobrokers.com"
 LIST_URL = BASE + "/legacy"
 OUTPUT = "auto_executive_test_inventory.json"
+PHOTO_DIR = Path("photos")
+PUBLIC_PHOTO_BASE = (
+    "https://raw.githubusercontent.com/AutoExecutive26/"
+    "auto-executive-public-feed/main/photos"
+)
 MIN_EXPECTED = 30          # refuse to overwrite the feed with fewer cars than this
-MAX_PHOTOS = 25            # photos kept per car
+MAX_PHOTOS = 5             # photos saved per car (keeps the repo small)
+MAX_WIDTH = 1000           # photos are shrunk to this width in pixels
+MAX_DOWNLOAD_BYTES = 8_000_000
 DELAY_SECONDS = 0.6        # pause between requests, to be polite to the source
+# Words that must never appear in titles on your site (case-insensitive)
+BANNED_WORDS = ["sunshine auto", "sunshine"]
+# -----------------------------------------------------------------------------
 
 HEADERS = {
     "User-Agent": (
@@ -68,9 +91,16 @@ def list_cars(list_html):
     return cars
 
 
+def scrub(text):
+    """Remove any banned words (like the source dealer's name) from text."""
+    for word in BANNED_WORDS:
+        text = re.sub(re.escape(word), "", text, flags=re.I)
+    return " ".join(text.split())
+
+
 def clean_title(title):
     words = []
-    for w in title.split():
+    for w in scrub(title).split():
         if w.isalpha() and w.isupper() and len(w) > 3:
             w = w.capitalize()
         words.append(w)
@@ -160,7 +190,84 @@ def find_photos(soup, page_url, raw_html):
     ):
         add(m.group(0))
 
-    return found[:MAX_PHOTOS]
+    return found
+
+
+def save_image(session, url, dest_dir):
+    """
+    Download one photo into dest_dir. Returns the saved file name, or None.
+    The file name is a hash of the source URL, so a photo already saved on a
+    previous run is not downloaded again.
+    """
+    name = hashlib.sha1(url.encode()).hexdigest()[:12] + ".jpg"
+    dest = dest_dir / name
+    if dest.exists():
+        return name
+
+    try:
+        r = session.get(url, headers=HEADERS, timeout=30)
+    except requests.RequestException as exc:
+        print(f"    photo failed: {exc}")
+        return None
+    ctype = r.headers.get("Content-Type", "")
+    if r.status_code != 200 or not ctype.lower().startswith("image/"):
+        print(f"    photo skipped (HTTP {r.status_code}, {ctype or 'no type'})")
+        return None
+    data = r.content
+    if not data or len(data) > MAX_DOWNLOAD_BYTES:
+        return None
+
+    if Image is not None:
+        try:
+            img = Image.open(io.BytesIO(data))
+            img = img.convert("RGB")
+            if img.width < 300:        # tiny images are icons or thumbnails
+                return None
+            if img.width > MAX_WIDTH:
+                height = round(img.height * MAX_WIDTH / img.width)
+                img = img.resize((MAX_WIDTH, height), Image.LANCZOS)
+            buf = io.BytesIO()
+            img.save(buf, "JPEG", quality=80, optimize=True)
+            data = buf.getvalue()
+        except Exception as exc:
+            print(f"    photo could not be processed: {exc}")
+            return None
+    elif "jpeg" not in ctype.lower():
+        return None                    # without Pillow, keep only real JPEGs
+
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(data)
+    return name
+
+
+def save_photos(session, car_id, source_urls):
+    """Save up to MAX_PHOTOS photos and return their public links."""
+    car_dir = PHOTO_DIR / car_id
+    saved = []
+    for url in source_urls:
+        if len(saved) >= MAX_PHOTOS:
+            break
+        time.sleep(DELAY_SECONDS / 2)
+        name = save_image(session, url, car_dir)
+        if name and name not in saved:
+            saved.append(name)
+
+    # Remove older photos of this car that are no longer in the set.
+    if car_dir.exists():
+        for old in car_dir.iterdir():
+            if old.name not in saved:
+                old.unlink()
+
+    return [f"{PUBLIC_PHOTO_BASE}/{car_id}/{name}" for name in saved]
+
+
+def remove_sold_car_photos(active_ids):
+    if not PHOTO_DIR.exists():
+        return
+    for folder in PHOTO_DIR.iterdir():
+        if folder.is_dir() and folder.name not in active_ids:
+            shutil.rmtree(folder)
+            print(f"Removed photos for sold car {folder.name}")
 
 
 def main():
@@ -174,6 +281,8 @@ def main():
 
     cars = list_cars(list_html)
     print(f"Found {len(cars)} car links on the list page.")
+    if Image is None:
+        print("NOTE: Pillow is not installed, so photos will not be resized.")
 
     vehicles = []
     for index, (source_id, url) in enumerate(cars.items(), start=1):
@@ -189,13 +298,15 @@ def main():
             print(f"[{index}/{len(cars)}] SKIPPED {url} (no title found)")
             continue
 
+        car_id = f"ae-{source_id}"
         year, make, model = split_title(title)
-        photos = find_photos(soup, url, html)
+        source_photos = find_photos(soup, url, html)
+        photos = save_photos(session, car_id, source_photos)
         mileage = find_mileage(soup.get_text(" ", strip=True))
 
         vehicles.append(
             {
-                "id": f"ae-{source_id}",
+                "id": car_id,
                 "title": title,
                 "year": year,
                 "make": make,
@@ -205,9 +316,10 @@ def main():
                 "pricing_label": "CALL FOR PRICING",
             }
         )
-        print(f"[{index}/{len(cars)}] {title} | photos: {len(photos)} | miles: {mileage}")
-        if index <= 3 and photos:
-            print(f"    first photo: {photos[0]}")
+        print(
+            f"[{index}/{len(cars)}] {title} | found {len(source_photos)}, "
+            f"saved {len(photos)} photos | miles: {mileage}"
+        )
 
     with_photos = sum(1 for v in vehicles if v["photos"])
     print(f"\nBuilt {len(vehicles)} vehicles, {with_photos} with photos.")
@@ -219,9 +331,16 @@ def main():
         )
         sys.exit(1)
     if with_photos == 0:
-        print("WARNING: no photos were found on any car page.")
+        print("WARNING: no photos were saved for any car.")
 
+    remove_sold_car_photos({v["id"] for v in vehicles})
     vehicles.sort(key=lambda v: (v["make"].lower(), v["model"].lower(), v["year"] or 0))
+
+    # Final safety check: nothing in the feed may mention the source site.
+    feed_text = json.dumps(vehicles).lower()
+    if "sunshineauto" in feed_text or "sunshine auto" in feed_text:
+        print("ERROR: source dealer name found in the feed. Feed left unchanged.")
+        sys.exit(1)
 
     # Don't rewrite the file (and create a pointless commit) if nothing changed.
     try:
