@@ -1,175 +1,1131 @@
 {
-  "updated_at": "2026-11-20T11:20:42.351410+00:00",
-  "test_feed": true,
+  "updated_at": "2026-11-20T18:45:41.496711+00:00",
+  "count": 87,
   "vehicles": [
     {
-      "id": "ae-001",
+      "id": "ae-6224",
       "title": "2006 Acura RL SH-AWD w/Navigation 3.5L",
       "year": 2006,
       "make": "Acura",
       "model": "RL SH-AWD w/Navigation 3.5L",
       "mileage": 118527,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6224/3cb95c3fcd33c0c4976cabb31b668dfb658ed4da",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-002",
+      "id": "ae-5949",
+      "title": "2010 Audi A4",
+      "year": 2010,
+      "make": "Audi",
+      "model": "A4",
+      "mileage": 107857,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5949/952a0ff1883573710b86e91243f931178ce7aa09",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6128",
+      "title": "2020 Audi A4",
+      "year": 2020,
+      "make": "Audi",
+      "model": "A4",
+      "mileage": 70311,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6128/256d73ca9e58470b8b69d824b7ff6f41ac9ce4a0",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6088",
+      "title": "2021 Audi Q7",
+      "year": 2021,
+      "make": "Audi",
+      "model": "Q7",
+      "mileage": 62557,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6088/923bd833798158a1d6861f399cd50cc666c19bb3",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6043",
+      "title": "2020 Audi SQ5",
+      "year": 2020,
+      "make": "Audi",
+      "model": "SQ5",
+      "mileage": 88479,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6043/829a5519b126b8ac6898e49728aa6aa42e0bf807",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5984",
+      "title": "2007 Bently Continental",
+      "year": 2007,
+      "make": "Bently",
+      "model": "Continental",
+      "mileage": 20730,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5984/265ed39d76d41203f9e49b3d506fe0d490cb75ae",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6044",
+      "title": "2014 BMW X5",
+      "year": 2014,
+      "make": "BMW",
+      "model": "X5",
+      "mileage": 121981,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6044/a13ba11369b46acd8b9e27d092684c78f234cdac",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6204",
       "title": "2007 Cadillac CTS",
       "year": 2007,
       "make": "Cadillac",
       "model": "CTS",
       "mileage": 31541,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6204/77a69840b0c6d222bcadedba1bd3e11d886be11d",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-003",
+      "id": "ae-5950",
+      "title": "2003 Cadillac DeVille",
+      "year": 2003,
+      "make": "Cadillac",
+      "model": "DeVille",
+      "mileage": 81011,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5950/f2abbf0251cb60fb7f97da57c3320c0ab6c18db9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-2913",
       "title": "1984 Cadillac Eldorado Convertible & Hardtop – 2 Vehicle Project Package",
       "year": 1984,
       "make": "Cadillac",
       "model": "Eldorado Convertible & Hardtop – 2 Vehicle Project Package",
       "mileage": 97816,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/2913/da25d0578e975e2f11a76ab9065ba9c23b68c986",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-004",
+      "id": "ae-3488",
       "title": "1984 Cadillac Eldorado Hardtop – Classic Cadillac Project",
       "year": 1984,
       "make": "Cadillac",
       "model": "Eldorado Hardtop – Classic Cadillac Project",
-      "mileage": 999999,
-      "photos": [],
+      "mileage": null,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/3488/0b602a14406887fd160acee29cec1ec93d29e9f9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-005",
+      "id": "ae-6090",
+      "title": "2015 Cadillac Escalade",
+      "year": 2015,
+      "make": "Cadillac",
+      "model": "Escalade",
+      "mileage": 97595,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6090/bc0d8c0dcb2d8f1545b94663208a9b67d08920e3",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6089",
+      "title": "2018 Cadillac Escalade",
+      "year": 2018,
+      "make": "Cadillac",
+      "model": "Escalade",
+      "mileage": 111942,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6089/f84106db2f71581920330cc013b139a43f4b5168",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6129",
+      "title": "2010 Cadillac SRX",
+      "year": 2010,
+      "make": "Cadillac",
+      "model": "SRX",
+      "mileage": 72947,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6129/5185643567fa7004fe13ad97709f209951757cf9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6212",
       "title": "2019 Cadillac XTS Premium Luxury AWD",
       "year": 2019,
       "make": "Cadillac",
       "model": "XTS Premium Luxury AWD",
       "mileage": 117401,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6212/59dccb5af13e98193bea41605d7dba85e40f5246",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-006",
+      "id": "ae-6109",
+      "title": "2006 Chevrolet Cobalt",
+      "year": 2006,
+      "make": "Chevrolet",
+      "model": "Cobalt",
+      "mileage": 67011,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6109/17d4f13687f37290a3d2073360fee76d28744613",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6122",
+      "title": "2006 Chevrolet Cobalt",
+      "year": 2006,
+      "make": "Chevrolet",
+      "model": "Cobalt",
+      "mileage": 129796,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6122/487e82815a868c45603406c7b2951383aaed5d9c",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6039",
+      "title": "2000 Chevrolet Corvette",
+      "year": 2000,
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "mileage": 29097,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6039/50d01e5d757fbc979b5634fee10ff7f06e1397f2",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5935",
+      "title": "2019 Chevrolet Equinox",
+      "year": 2019,
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "mileage": 79633,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5935/def29be941bf76b11153140902ca2e68e8658661",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6162",
+      "title": "2010 Chevrolet HHR",
+      "year": 2010,
+      "make": "Chevrolet",
+      "model": "HHR",
+      "mileage": 124169,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6162/901a9ee9d309910c0d41c67e6d3bb979b82b22ba",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5936",
+      "title": "2013 Chevrolet Impala",
+      "year": 2013,
+      "make": "Chevrolet",
+      "model": "Impala",
+      "mileage": 138934,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5936/995cb5eab993d7d8a3ef188a7402065c405a57ad",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-3610",
       "title": "1997 Chevrolet Impala Wagon – Classic Project / LS Swap Candidate",
       "year": 1997,
       "make": "Chevrolet",
       "model": "Impala Wagon – Classic Project / LS Swap Candidate",
-      "mileage": 999999,
-      "photos": [],
+      "mileage": null,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/3610/69ce955b184885beceef63b6b5684f3cd4d3d151",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-007",
+      "id": "ae-6020",
+      "title": "2016 Chevrolet Malibu Limited",
+      "year": 2016,
+      "make": "Chevrolet",
+      "model": "Malibu Limited",
+      "mileage": 145070,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6020/02633c6ecbfa701b70d8448311da31d940e37629",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-4980",
+      "title": "1971 Chevrolet Nova",
+      "year": 1971,
+      "make": "Chevrolet",
+      "model": "Nova",
+      "mileage": 95901,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/4980/bafb7440ad0ec150b9407d73cd82ec7bda00076c",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6069",
+      "title": "1985 Chevrolet S10",
+      "year": 1985,
+      "make": "Chevrolet",
+      "model": "S10",
+      "mileage": 40723,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6069/d247961b5b59682cb35a3c8e461adb901493f966",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6098",
+      "title": "2002 Chevrolet S10",
+      "year": 2002,
+      "make": "Chevrolet",
+      "model": "S10",
+      "mileage": 115611,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6098/5d0fd184e06a41be0e06fd9990860ffab67abef9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5937",
+      "title": "2021 Chevrolet Silverado 1500",
+      "year": 2021,
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "mileage": 75247,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5937/4a4cb718228040cc111d4102d638891754000469",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5786",
+      "title": "2020 Chevrolet Silverado 2500",
+      "year": 2020,
+      "make": "Chevrolet",
+      "model": "Silverado 2500",
+      "mileage": 122891,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5786/35d544f2947ef3f757e4149f275fe8e62ed8bfa3",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6225",
       "title": "2014 Chevrolet Spark LT Hatchback",
       "year": 2014,
       "make": "Chevrolet",
       "model": "Spark LT Hatchback",
       "mileage": 54529,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6225/12e701a42ec58b50df9eb03308adf31a9d675a19",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-008",
+      "id": "ae-6114",
+      "title": "2014 Chrysler 300",
+      "year": 2014,
+      "make": "Chrysler",
+      "model": "300",
+      "mileage": 67762,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6114/b071a719c48177383a61f6dc6d3b46689c01bdb9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5951",
+      "title": "2022 Chrysler 300",
+      "year": 2022,
+      "make": "Chrysler",
+      "model": "300",
+      "mileage": 123171,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5951/c07623b4997d1c7692da4526441b42e9ab980b5b",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6049",
+      "title": "2005 Dodge Grand Caravan",
+      "year": 2005,
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "mileage": 59090,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6049/e2389a349b787f9a6c2a2f32b9e65f28708bf5ef",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5998",
+      "title": "1995 Dodge Ram 1500",
+      "year": 1995,
+      "make": "Dodge",
+      "model": "Ram 1500",
+      "mileage": 172901,
+      "photos": [
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6022",
+      "title": "2017 Fiat 124 Spider",
+      "year": 2017,
+      "make": "Fiat",
+      "model": "124 Spider",
+      "mileage": 51585,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6022/d20e8161743bf84fbfb13e1714436313c89da94a",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-3906",
       "title": "1991 Ford Bronco XLT 4WD – 5.8L V8",
       "year": 1991,
       "make": "Ford",
       "model": "Bronco XLT 4WD – 5.8L V8",
       "mileage": 85475,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/3906/04d77d75d44ef7d6052e57dbcccf7cd4a576d5da",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-009",
+      "id": "ae-6170",
+      "title": "2003 Ford F150",
+      "year": 2003,
+      "make": "Ford",
+      "model": "F150",
+      "mileage": 290376,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6170/fd84e95c8d020529c6819dcfd1c640405dbf5684",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5970",
+      "title": "2009 Ford F250SD",
+      "year": 2009,
+      "make": "Ford",
+      "model": "F250SD",
+      "mileage": 187870,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5970/c009abe178fe2a6fa1b77272e1a705a2b45f1ffe",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5908",
+      "title": "2008 Ford F350SD",
+      "year": 2008,
+      "make": "Ford",
+      "model": "F350SD",
+      "mileage": 204901,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5908/b69856803ba1e9b8dd6a1ca0efe0f72ff4ba633c",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5418",
+      "title": "2019 Ford Flex",
+      "year": 2019,
+      "make": "Ford",
+      "model": "Flex",
+      "mileage": 97278,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5418/c84e72bea4aeda0eb25103c2f9ea36547851f064",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6141",
+      "title": "2014 Ford Transit Connect",
+      "year": 2014,
+      "make": "Ford",
+      "model": "Transit Connect",
+      "mileage": 103041,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6141/26108a64d2f2f37040884ea99fb8b6c48590ae72",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5790",
+      "title": "2021 Forest River NO Boundaries",
+      "year": 2021,
+      "make": "Forest",
+      "model": "River NO Boundaries",
+      "mileage": null,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5790/06cd1efcc169307e0ab6d2a5c725316e416dd4a1",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6086",
       "title": "2002 Honda CR-V LX 2.4L",
       "year": 2002,
       "make": "Honda",
       "model": "CR-V LX 2.4L",
       "mileage": 204092,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6086/9fed19ea79c2e73918696a509ee1e90c5bc45869",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-010",
+      "id": "ae-6163",
+      "title": "2017 Hyundai Santa Fe Sport",
+      "year": 2017,
+      "make": "Hyundai",
+      "model": "Santa Fe Sport",
+      "mileage": 119505,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6163/be5273ae17a32d47fe8ccda0b1e3e520e1d96256",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6180",
+      "title": "2019 Infiniti QX80",
+      "year": 2019,
+      "make": "Infiniti",
+      "model": "QX80",
+      "mileage": 148273,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6180/2aedec9cf2100302ae0654b179cb9ac5c118bca5",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6156",
+      "title": "2019 Jaguar F-Type",
+      "year": 2019,
+      "make": "Jaguar",
+      "model": "F-Type",
+      "mileage": 57575,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6156/767234983933ea6c06717fab39a0b90c17726f7f",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6050",
+      "title": "2022 Jeep Grand Cherokee L",
+      "year": 2022,
+      "make": "Jeep",
+      "model": "Grand Cherokee L",
+      "mileage": 83709,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6050/a65fa515c245a9db2d6a3a9ea8fcf3cdfec77406",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6205",
       "title": "2015 Jeep Grand Cherokee Overland",
       "year": 2015,
       "make": "Jeep",
       "model": "Grand Cherokee Overland",
       "mileage": 114032,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6205/0a7094272b0d6136e77e5863993294aa5c3cc9bc",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-011",
+      "id": "ae-5954",
+      "title": "2020 Jeep Wrangler",
+      "year": 2020,
+      "make": "Jeep",
+      "model": "Wrangler",
+      "mileage": 70917,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5954/b5dec87167664006aab3dd0fb6e29ba3b75800c3",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6186",
+      "title": "2010 Kia Soul",
+      "year": 2010,
+      "make": "Kia",
+      "model": "Soul",
+      "mileage": 93621,
+      "photos": [
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5883",
+      "title": "2017 Kia Soul",
+      "year": 2017,
+      "make": "Kia",
+      "model": "Soul",
+      "mileage": 118644,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5883/0f6de740e605798037bf9c6cd169264b65dc5c57",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5941",
+      "title": "2018 Kia Soul",
+      "year": 2018,
+      "make": "Kia",
+      "model": "Soul",
+      "mileage": 99570,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5941/5c560888d9d629271e048d03fbc98b8b5c511238",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6131",
+      "title": "2019 Kia Soul",
+      "year": 2019,
+      "make": "Kia",
+      "model": "Soul",
+      "mileage": 52179,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6131/ada7729ccea3a066027f6a76942ec94524ce121a",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5914",
+      "title": "2022 Kia Sportage",
+      "year": 2022,
+      "make": "Kia",
+      "model": "Sportage",
+      "mileage": 111492,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5914/2b5fa9dfc24623293b88c31b8ef9233f5a0f6f83",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6063",
       "title": "2013 Lexus GX 460 4WD",
       "year": 2013,
       "make": "Lexus",
       "model": "GX 460 4WD",
       "mileage": 124111,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6063/975758d02cbabc4f29f238e1cd50ad382d1244c5",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-012",
+      "id": "ae-6206",
       "title": "2010 Lexus RX 350",
       "year": 2010,
       "make": "Lexus",
       "model": "RX 350",
       "mileage": 137394,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6206/80cbf4dc820b8b8fd6861e1d935f8d1eee222604",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-013",
+      "id": "ae-6195",
+      "title": "2017 Mazda Mazda6",
+      "year": 2017,
+      "make": "Mazda",
+      "model": "Mazda6",
+      "mileage": 153667,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6195/5c9cc3fa1d10e08a3bb8c6e6d629d46549b52c5e",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5975",
+      "title": "1980 MERCEDES-BENZ 450 SL",
+      "year": 1980,
+      "make": "MERCEDES-BENZ",
+      "model": "450 SL",
+      "mileage": 86481,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5975/b15bd0b15b0a74ed39912083a7422cb9bc499758",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6213",
       "title": "2021 Mercedes-Benz GLA 250 4MATIC",
       "year": 2021,
       "make": "Mercedes-Benz",
       "model": "GLA 250 4MATIC",
       "mileage": 71245,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6213/7409129b8d23e7d89f502f6ad991fff68a3007fa",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-014",
+      "id": "ae-5866",
+      "title": "2006 Mercedes-Benz S Class",
+      "year": 2006,
+      "make": "Mercedes-Benz",
+      "model": "S Class",
+      "mileage": 97017,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5866/e0d9edc1c1568a5bc2818628a6d13ab4fc78521e",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6085",
+      "title": "2011 Mercedes-Benz S Class",
+      "year": 2011,
+      "make": "Mercedes-Benz",
+      "model": "S Class",
+      "mileage": 84101,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6085/3bd8a23d22de16c39c01bd61714bcb6549e02dfd",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5531",
+      "title": "1996 Mercury Cougar",
+      "year": 1996,
+      "make": "Mercury",
+      "model": "Cougar",
+      "mileage": 78276,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5531/d814275b8d7d0929488486880664ca93207a91c9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6092",
+      "title": "2019 Nissan Murano",
+      "year": 2019,
+      "make": "Nissan",
+      "model": "Murano",
+      "mileage": 70338,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6092/d7571bb325a653a6fc8845326a2c742af5f1857d",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5993",
+      "title": "2018 Nissan Rogue",
+      "year": 2018,
+      "make": "Nissan",
+      "model": "Rogue",
+      "mileage": 135068,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5993/f1c770ba84588f4be6f2644031e7c5a6cc2bc3bc",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6175",
+      "title": "2012 Ram 1500",
+      "year": 2012,
+      "make": "Ram",
+      "model": "1500",
+      "mileage": 107943,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6175/e35c92905080a0762349735ce9fa548f22dc604b",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6207",
+      "title": "2017 Ram 1500",
+      "year": 2017,
+      "make": "Ram",
+      "model": "1500",
+      "mileage": 139411,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6207/256ec4aa02de9b08c68d4e45786707d24d7965d6",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6168",
+      "title": "2021 Ram 1500 ProMaster Vans",
+      "year": 2021,
+      "make": "Ram",
+      "model": "1500 ProMaster Vans",
+      "mileage": 145759,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6168/e727f73ba255797162ba9f5c159a4a698daadccb",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6188",
+      "title": "2016 Ram 2500",
+      "year": 2016,
+      "make": "Ram",
+      "model": "2500",
+      "mileage": 234011,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6188/b7da0aa773cb3e182cfbce46810322be1a756655",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6214",
       "title": "2016 Ram 3500 Laramie Crew Cab 4x4 Dually",
       "year": 2016,
       "make": "Ram",
       "model": "3500 Laramie Crew Cab 4x4 Dually",
       "mileage": 69631,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6214/c5c18730bb0cc88f1ddf6d0b534f512a2928360e",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-015",
+      "id": "ae-5547",
+      "title": "2012 Ram C/V",
+      "year": 2012,
+      "make": "Ram",
+      "model": "C/V",
+      "mileage": 222471,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5547/062ed9921fcdb8084b0ee1fb89d8809e3196d8e1",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6158",
+      "title": "2008 Scion tC",
+      "year": 2008,
+      "make": "Scion",
+      "model": "tC",
+      "mileage": 118671,
+      "photos": [
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6051",
+      "title": "2004 Toyota 4Runner",
+      "year": 2004,
+      "make": "Toyota",
+      "model": "4Runner",
+      "mileage": 202171,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6051/9e6816150ecf70e37d3763cc2d9b81f58273cc0a",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6155",
+      "title": "2025 Toyota Camry",
+      "year": 2025,
+      "make": "Toyota",
+      "model": "Camry",
+      "mileage": 19107,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6155/905a4c823265f6effe29552156e76fd47b9edfe9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5381",
+      "title": "1996 Toyota Corolla",
+      "year": 1996,
+      "make": "Toyota",
+      "model": "Corolla",
+      "mileage": 232967,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5381/aa613218ffa7e178316071685d67ef082bebe756",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5973",
+      "title": "2017 Toyota Corolla",
+      "year": 2017,
+      "make": "Toyota",
+      "model": "Corolla",
+      "mileage": 133547,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5973/f2b364fe6d9e8c7e1579a6776dfbe7c79b8a330d",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6208",
+      "title": "2022 Toyota Corolla",
+      "year": 2022,
+      "make": "Toyota",
+      "model": "Corolla",
+      "mileage": 71311,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6208/ec7e8001ad585f2a56e477a8476c91286c009b11",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6126",
+      "title": "2007 Toyota FJ Cruiser",
+      "year": 2007,
+      "make": "Toyota",
+      "model": "FJ Cruiser",
+      "mileage": 172037,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6126/cb2892d60f91bda5bb1bf73b4a13678203a5b08a",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5712",
+      "title": "2017 Toyota Prius",
+      "year": 2017,
+      "make": "Toyota",
+      "model": "Prius",
+      "mileage": 105931,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5712/2dd0bb07ed0c022dfd80c1e65822fdf1d17f00c9",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-5763",
+      "title": "2019 Toyota RAV4",
+      "year": 2019,
+      "make": "Toyota",
+      "model": "RAV4",
+      "mileage": 82548,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/5763/90961222e88913b4d02cd21e69de14cd0c00b844",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6215",
       "title": "2016 Toyota Sienna SE Premium 8 Passenger",
       "year": 2016,
       "make": "Toyota",
       "model": "Sienna SE Premium 8 Passenger",
       "mileage": 119421,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6215/fde1108ec86ca5b04f170d82bccf26a514fa0b22",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-016",
+      "id": "ae-6177",
+      "title": "2008 Toyota Tacoma",
+      "year": 2008,
+      "make": "Toyota",
+      "model": "Tacoma",
+      "mileage": 197183,
+      "photos": [
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6176",
+      "title": "2009 Toyota Tacoma",
+      "year": 2009,
+      "make": "Toyota",
+      "model": "Tacoma",
+      "mileage": 221997,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6176/a15faa60892f1c7d77eb6aefeeb8d4d0f4d2c1bf",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6066",
+      "title": "2004 Toyota Tundra",
+      "year": 2004,
+      "make": "Toyota",
+      "model": "Tundra",
+      "mileage": 237069,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6066/699e7c29ee7b5d2c75c87ac40b09267eb8a0c229",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6210",
+      "title": "2010 Volkswagen Jetta",
+      "year": 2010,
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "mileage": 162097,
+      "photos": [
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6084",
+      "title": "2017 Volkswagen Passat",
+      "year": 2017,
+      "make": "Volkswagen",
+      "model": "Passat",
+      "mileage": 91074,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6084/95d541e5254f67e1a54f18d185399e74efae54a3",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6095",
       "title": "2012 Volkswagen Passat S 2.5L – Great Condition!",
       "year": 2012,
       "make": "Volkswagen",
       "model": "Passat S 2.5L – Great Condition!",
       "mileage": 105901,
-      "photos": [],
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/6095/08b3be844e84ddb999ffe6839fc3707f4d833605",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-017",
+      "id": "ae-3958",
       "title": "1984 Volkswagen Vanagon Passenger Van – 1.9L",
       "year": 1984,
       "make": "Volkswagen",
       "model": "Vanagon Passenger Van – 1.9L",
-      "mileage": 999999,
-      "photos": [],
+      "mileage": null,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/3958/43a7c6a60bc53dd941c704a584762a76e4267218",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-4927",
+      "title": "2009 Winnebago ERA Limited 170XL",
+      "year": 2009,
+      "make": "Winnebago",
+      "model": "ERA Limited 170XL",
+      "mileage": 70606,
+      "photos": [
+        "https://sunshineautobrokers.com/service/picture/36641/4927/7b4fbb597ee714616113f5870b3de7a18a72aaad",
+        "https://sunshineautobrokers.com/themes/theme1/carstory.png"
+      ],
       "pricing_label": "CALL FOR PRICING"
     }
   ]
