@@ -44,6 +44,11 @@ except ImportError:
     ndimage = None
 
 try:
+    from ultralytics import YOLO       # finds each car in the photo (optional)
+except Exception:
+    YOLO = None
+
+try:
     from rembg import new_session, remove as rembg_remove
 except ImportError:
     rembg_remove = None
@@ -71,15 +76,17 @@ CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # A cutout is only used if the car fills between these shares of the photo.
 # This drops interior shots, close-ups and failed cutouts.
 MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
-STYLE_VERSION = "v4"                 # bump to force every photo to be redone
+STYLE_VERSION = "v6"                 # bump to force every photo to be redone
 MAX_CANDIDATES = 8         # photos tried per car; the cleanest ones are kept
 MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
+DETECTOR_MODEL = "yolov8m-seg.pt"   # finds each separate car in a photo
+GATE_PX = 14               # how far outside the detected car the cutout may reach
 MASK_ALPHA = 160           # how solid a pixel must be to count as part of the car
 ERODE_PX = 9               # used to separate the main car from things touching it
 # Dealer logo / watermark area of the ORIGINAL photo, as fractions of its size:
 # (left, top, right, bottom). Everything inside is erased before the cutout.
 # If a photo's car reaches far into this box, the photo is skipped instead.
-WATERMARK_BOX = (0.70, 0.68, 1.0, 1.0)
+WATERMARK_BOX = None          # OFF: erasing a big box was cutting chunks out of cars
 MAX_WATERMARK_OVERLAP = 0.12
 MAX_REMOVED_SHARE = 0.30   # more than this removed = several cars in frame, skip
 EDGE_PX = 2                # car touching the left/right edge = cut off, skip
@@ -287,11 +294,57 @@ def save_rejected():
     PHOTO_CACHE.write_text(json.dumps({"rejected": sorted(REJECTED)}))
 
 
-def replace_background(img):
+_detector = None
+_detector_failed = False
+
+
+def car_gate(img):
+    """
+    Use an object detector to find the main vehicle and return a mask that
+    covers only that vehicle (a little grown). This is what separates the
+    main car from other cars parked behind or beside it.
+      None  -> detector not available; carry on without it
+      False -> no vehicle found in the photo
+      mask  -> boolean array, True where the main vehicle is
+    """
+    global _detector, _detector_failed
+    if YOLO is None or _detector_failed:
+        return None
+    try:
+        if _detector is None:
+            _detector = YOLO(DETECTOR_MODEL)
+        res = _detector.predict(img, conf=0.25, classes=[2, 5, 7], verbose=False)[0]
+        if res.masks is None or len(res.masks.xy) == 0:
+            return False
+        width, height = img.size
+        best, best_area = None, 0
+        for poly in res.masks.xy:
+            if len(poly) < 3:
+                continue
+            canvas = Image.new("L", (width, height), 0)
+            ImageDraw.Draw(canvas).polygon([tuple(pt) for pt in poly.tolist()], fill=255)
+            m = np.asarray(canvas) > 0
+            area = int(m.sum())
+            if area > best_area:
+                best, best_area = m, area
+        if best is None:
+            return False
+        if ndimage is not None:
+            best = ndimage.binary_dilation(best, iterations=GATE_PX)
+        return best
+    except Exception as exc:
+        print(f"    car detector problem ({exc}); continuing without it")
+        _detector_failed = True
+        return None
+
+
+def replace_background(img, relaxed=False):
     """
     Cut the car out of the photo and place it on the uniform backdrop.
     Returns (image, score), or None if the photo is not a clean exterior
     shot of a single car. A higher score means a cleaner shot.
+    relaxed=True is the fallback for cars with no clean photo: it accepts
+    imperfect shots (but always scores them below MIN_SCORE).
     """
     global _rembg_session
     if _rembg_session is None:
@@ -300,9 +353,17 @@ def replace_background(img):
     cutout = rembg_remove(img, session=_rembg_session).convert("RGBA")
     alpha = np.asarray(cutout.split()[3]).copy()
     mask = alpha > MASK_ALPHA
+
+    gate = car_gate(img)
+    if gate is False:
+        return reject("no car detected in the photo")
+    if gate is not None:
+        mask = mask & gate
+        alpha = np.where(gate, alpha, 0)
+
     car_px = int(mask.sum())
     share = car_px / mask.size
-    if not (MIN_CAR_SHARE <= share <= MAX_CAR_SHARE):
+    if not ((0.06 if relaxed else MIN_CAR_SHARE) <= share <= MAX_CAR_SHARE):
         return reject("car too small or too big in the frame")
 
     # Erase the dealer-logo corner; skip the photo if the car itself is there.
@@ -332,7 +393,7 @@ def replace_background(img):
         keep = ndimage.binary_dilation(main, iterations=ERODE_PX + 2) & mask
 
     removed = 1 - int(keep.sum()) / max(car_px, 1)
-    if removed > MAX_REMOVED_SHARE:
+    if removed > MAX_REMOVED_SHARE and not relaxed:
         return reject("other cars or objects in the frame")                     # several vehicles or clutter
 
     ys, xs = np.where(keep)
@@ -340,10 +401,10 @@ def replace_background(img):
         return reject("empty cutout")
     x0, x1, y0, y1 = int(xs.min()), int(xs.max()), int(ys.min()), int(ys.max())
     height, width = keep.shape
-    if x0 <= EDGE_PX or x1 >= width - 1 - EDGE_PX:
+    if not relaxed and (x0 <= EDGE_PX or x1 >= width - 1 - EDGE_PX):
         return reject("car cut off by the side of the photo")                     # car is cut off by the side of the photo
     ratio = (x1 - x0 + 1) / (y1 - y0 + 1)
-    if not (MIN_RATIO <= ratio <= MAX_RATIO):
+    if not relaxed and not (MIN_RATIO <= ratio <= MAX_RATIO):
         return reject("not a normal car shape (too tall or too wide)")                     # not a normal exterior car shape
 
     cutout.putalpha(Image.fromarray(np.where(keep, alpha, 0).astype("uint8")))
@@ -372,16 +433,18 @@ def replace_background(img):
     canvas.alpha_composite(cutout, (x, y))
 
     score = int(max(0, min(99, 100 * (1 - removed) - 80 * abs(share - 0.35))))
+    if relaxed:
+        score = max(1, min(score, MIN_SCORE - 1))
     return canvas.convert("RGB"), score
 
 
-def save_image(session, url, dest_dir):
+def save_image(session, url, dest_dir, relaxed=False):
     """
     Download one photo into dest_dir. Returns (file name, score), or None.
     The file name is <hash of source URL and style>-<score>.jpg, so a photo
     already processed on a previous run is not downloaded or processed again.
     """
-    key = f"{url}|{BACKGROUND_STYLE}|{STYLE_VERSION}"
+    key = f"{url}|{BACKGROUND_STYLE}|{STYLE_VERSION}" + ("|relaxed" if relaxed else "")
     stem = hashlib.sha1(key.encode()).hexdigest()[:12]
     if stem in BLOCKLIST or stem in REJECTED:
         return None
@@ -414,7 +477,7 @@ def save_image(session, url, dest_dir):
                 height = round(img.height * MAX_WIDTH / img.width)
                 img = img.resize((MAX_WIDTH, height), Image.LANCZOS)
             if BACKGROUND_STYLE != "none":
-                result = replace_background(img)
+                result = replace_background(img, relaxed=relaxed)
                 if result is None:
                     print(f"    photo skipped: {LAST_REJECT_REASON}")
                     REJECTED.add(stem)
@@ -448,12 +511,49 @@ def save_photos(session, car_id, source_urls):
     candidates.sort(key=lambda c: -c[1])           # cleanest photo first
     keep = [name for name, _ in candidates[:MAX_PHOTOS]]
 
+    # Fallback: no clean photo passed, so take the best imperfect ones
+    # rather than leaving the car with no picture at all.
+    if not keep:
+        relaxed_found = []
+        for url in source_urls[:MAX_CANDIDATES]:
+            time.sleep(DELAY_SECONDS / 2)
+            result = save_image(session, url, car_dir, relaxed=True)
+            if result and result[0] not in [c[0] for c in relaxed_found]:
+                relaxed_found.append(result)
+        relaxed_found.sort(key=lambda c: -c[1])
+        keep = [name for name, _ in relaxed_found[:2]]
+        if keep:
+            print(f"    no clean photo - using {len(keep)} fallback photo(s)")
+
     if car_dir.exists():
         for old in car_dir.iterdir():
             if old.name not in keep:
                 old.unlink()
 
     return [f"{PUBLIC_PHOTO_BASE}/{car_id}/{name}" for name in keep]
+
+
+def make_preview(vehicles):
+    """One picture with the first photo of every car, to review at a glance."""
+    if Image is None or not vehicles:
+        return
+    cols, tw, th = 5, 360, 203
+    rows = -(-len(vehicles) // cols)
+    sheet = Image.new("RGB", (cols * tw, rows * th), (20, 20, 20))
+    draw = ImageDraw.Draw(sheet)
+    for i, v in enumerate(vehicles):
+        x, y = (i % cols) * tw, (i // cols) * th
+        path = None
+        if v["photos"] and "/photos/" in v["photos"][0]:
+            path = PHOTO_DIR / v["photos"][0].split("/photos/", 1)[1]
+        if path is not None and path.exists():
+            sheet.paste(Image.open(path).convert("RGB").resize((tw, th)), (x, y))
+        else:
+            draw.text((x + 12, y + th // 2), "NO PHOTO", fill=(215, 173, 84))
+        label = v["title"][:40]
+        draw.text((x + 7, y + 7), label, fill=(0, 0, 0))
+        draw.text((x + 6, y + 6), label, fill=(255, 255, 255))
+    sheet.save("preview.jpg", "JPEG", quality=80)
 
 
 def remove_sold_car_photos(active_ids):
@@ -478,6 +578,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
+    print("Car detector:", "ON" if YOLO is not None else "OFF (not installed)")
     load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
         Image is None or np is None or rembg_remove is None
@@ -544,6 +645,8 @@ def main():
 
     remove_sold_car_photos({v["id"] for v in vehicles})
     vehicles.sort(key=lambda v: (v["make"].lower(), v["model"].lower(), v["year"] or 0))
+
+    make_preview(vehicles)
 
     # Final safety check: nothing in the feed may mention the source site.
     feed_text = json.dumps(vehicles).lower()
