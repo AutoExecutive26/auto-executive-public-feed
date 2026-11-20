@@ -39,6 +39,11 @@ except ImportError:
     np = None
 
 try:
+    from scipy import ndimage
+except ImportError:
+    ndimage = None
+
+try:
     from rembg import new_session, remove as rembg_remove
 except ImportError:
     rembg_remove = None
@@ -65,8 +70,16 @@ BACKGROUND_STYLE = "blackgold"
 CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # A cutout is only used if the car fills between these shares of the photo.
 # This drops interior shots, close-ups and failed cutouts.
-MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.80
-STYLE_VERSION = "v1"                 # bump to force every photo to be redone
+MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
+STYLE_VERSION = "v2"                 # bump to force every photo to be redone
+MAX_CANDIDATES = 8         # photos tried per car; the cleanest ones are kept
+MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
+ERODE_PX = 6               # used to separate the main car from things touching it
+MAX_REMOVED_SHARE = 0.30   # more than this removed = several cars in frame, skip
+EDGE_PX = 2                # car touching the left/right edge = cut off, skip
+MIN_RATIO, MAX_RATIO = 1.3, 4.8   # width/height of a normal exterior car shot
+PHOTO_CACHE = Path("photo_cache.json")        # remembers photos already rejected
+BLOCKLIST_FILE = Path("photo_blocklist.txt")  # photos you never want shown
 DELAY_SECONDS = 0.6        # pause between requests, to be polite to the source
 # Words that must never appear in titles on your site (case-insensitive)
 BANNED_WORDS = ["sunshine auto", "sunshine"]
@@ -237,26 +250,74 @@ def make_backdrop():
     return Image.fromarray(np.clip(arr, 0, 255).astype("uint8"), "RGB")
 
 
+REJECTED = set()
+BLOCKLIST = set()
+
+
+def load_photo_lists():
+    try:
+        REJECTED.update(json.loads(PHOTO_CACHE.read_text()).get("rejected", []))
+    except (OSError, ValueError):
+        pass
+    try:
+        for line in BLOCKLIST_FILE.read_text().splitlines():
+            if not line.strip().startswith("#"):
+                BLOCKLIST.update(re.findall(r"\b[0-9a-f]{12}\b", line))
+    except OSError:
+        pass
+
+
+def save_rejected():
+    PHOTO_CACHE.write_text(json.dumps({"rejected": sorted(REJECTED)}))
+
+
 def replace_background(img):
     """
     Cut the car out of the photo and place it on the uniform backdrop.
-    Returns a new RGB image, or None if the cutout doesn't look like a
-    usable exterior car photo.
+    Returns (image, score), or None if the photo is not a clean exterior
+    shot of a single car. A higher score means a cleaner shot.
     """
     global _rembg_session
     if _rembg_session is None:
         _rembg_session = new_session("isnet-general-use")
 
     cutout = rembg_remove(img, session=_rembg_session).convert("RGBA")
-    alpha = cutout.split()[3]
-    share = float((np.asarray(alpha) > 128).mean())
+    alpha = np.asarray(cutout.split()[3]).copy()
+    mask = alpha > 128
+    car_px = int(mask.sum())
+    share = car_px / mask.size
     if not (MIN_CAR_SHARE <= share <= MAX_CAR_SHARE):
         return None
 
-    box = alpha.point(lambda p: 255 if p > 40 else 0).getbbox()
-    if not box:
+    # Keep only the main vehicle: shrink the mask so objects touching it
+    # (other cars, signs) come apart, keep the biggest piece, grow it back.
+    keep = mask
+    if ndimage is not None:
+        core = ndimage.binary_erosion(mask, iterations=ERODE_PX)
+        labels, count = ndimage.label(core)
+        if count == 0:
+            return None
+        sizes = ndimage.sum(core, labels, range(1, count + 1))
+        main = labels == (int(np.argmax(sizes)) + 1)
+        keep = ndimage.binary_dilation(main, iterations=ERODE_PX + 2) & mask
+
+    removed = 1 - int(keep.sum()) / max(car_px, 1)
+    if removed > MAX_REMOVED_SHARE:
+        return None                     # several vehicles or clutter
+
+    ys, xs = np.where(keep)
+    if len(xs) == 0:
         return None
-    cutout = cutout.crop(box)
+    x0, x1, y0, y1 = int(xs.min()), int(xs.max()), int(ys.min()), int(ys.max())
+    height, width = keep.shape
+    if x0 <= EDGE_PX or x1 >= width - 1 - EDGE_PX:
+        return None                     # car is cut off by the side of the photo
+    ratio = (x1 - x0 + 1) / (y1 - y0 + 1)
+    if not (MIN_RATIO <= ratio <= MAX_RATIO):
+        return None                     # not a normal exterior car shape
+
+    cutout.putalpha(Image.fromarray(np.where(keep, alpha, 0).astype("uint8")))
+    cutout = cutout.crop((x0, y0, x1 + 1, y1 + 1))
 
     scale = min(CANVAS_W * 0.88 / cutout.width, CANVAS_H * 0.74 / cutout.height)
     cutout = cutout.resize(
@@ -279,20 +340,24 @@ def replace_background(img):
     shadow = shadow.filter(ImageFilter.GaussianBlur(12))
     canvas = Image.alpha_composite(canvas, shadow)
     canvas.alpha_composite(cutout, (x, y))
-    return canvas.convert("RGB")
+
+    score = int(max(0, min(99, 100 * (1 - removed) - 80 * abs(share - 0.35))))
+    return canvas.convert("RGB"), score
 
 
 def save_image(session, url, dest_dir):
     """
-    Download one photo into dest_dir. Returns the saved file name, or None.
-    The file name is a hash of the source URL and backdrop style, so a photo
-    already saved on a previous run is not downloaded or processed again.
+    Download one photo into dest_dir. Returns (file name, score), or None.
+    The file name is <hash of source URL and style>-<score>.jpg, so a photo
+    already processed on a previous run is not downloaded or processed again.
     """
     key = f"{url}|{BACKGROUND_STYLE}|{STYLE_VERSION}"
-    name = hashlib.sha1(key.encode()).hexdigest()[:12] + ".jpg"
-    dest = dest_dir / name
-    if dest.exists():
-        return name
+    stem = hashlib.sha1(key.encode()).hexdigest()[:12]
+    if stem in BLOCKLIST or stem in REJECTED:
+        return None
+    if dest_dir.exists():
+        for existing in dest_dir.glob(stem + "-*.jpg"):
+            return existing.name, int(existing.stem.split("-")[1])
 
     try:
         r = session.get(url, headers=HEADERS, timeout=30)
@@ -307,20 +372,24 @@ def save_image(session, url, dest_dir):
     if not data or len(data) > MAX_DOWNLOAD_BYTES:
         return None
 
+    score = 50
     if Image is not None:
         try:
             img = Image.open(io.BytesIO(data))
             img = img.convert("RGB")
             if img.width < 300:        # tiny images are icons or thumbnails
+                REJECTED.add(stem)
                 return None
             if img.width > MAX_WIDTH:
                 height = round(img.height * MAX_WIDTH / img.width)
                 img = img.resize((MAX_WIDTH, height), Image.LANCZOS)
             if BACKGROUND_STYLE != "none":
-                img = replace_background(img)
-                if img is None:
-                    print("    photo skipped (no clear exterior car shot)")
+                result = replace_background(img)
+                if result is None:
+                    print("    photo skipped (not a clean single-car exterior shot)")
+                    REJECTED.add(stem)
                     return None
+                img, score = result
             buf = io.BytesIO()
             img.save(buf, "JPEG", quality=80, optimize=True)
             data = buf.getvalue()
@@ -331,29 +400,30 @@ def save_image(session, url, dest_dir):
         return None                    # without Pillow, keep only real JPEGs
 
     dest_dir.mkdir(parents=True, exist_ok=True)
-    dest.write_bytes(data)
-    return name
+    name = f"{stem}-{score:02d}.jpg"
+    (dest_dir / name).write_bytes(data)
+    return name, score
 
 
 def save_photos(session, car_id, source_urls):
-    """Save up to MAX_PHOTOS photos and return their public links."""
+    """Process several photos, keep the cleanest ones, return public links."""
     car_dir = PHOTO_DIR / car_id
-    saved = []
-    for url in source_urls:
-        if len(saved) >= MAX_PHOTOS:
-            break
+    candidates = []
+    for url in source_urls[:MAX_CANDIDATES]:
         time.sleep(DELAY_SECONDS / 2)
-        name = save_image(session, url, car_dir)
-        if name and name not in saved:
-            saved.append(name)
+        result = save_image(session, url, car_dir)
+        if result and result[1] >= MIN_SCORE and result[0] not in [c[0] for c in candidates]:
+            candidates.append(result)
 
-    # Remove older photos of this car that are no longer in the set.
+    candidates.sort(key=lambda c: -c[1])           # cleanest photo first
+    keep = [name for name, _ in candidates[:MAX_PHOTOS]]
+
     if car_dir.exists():
         for old in car_dir.iterdir():
-            if old.name not in saved:
+            if old.name not in keep:
                 old.unlink()
 
-    return [f"{PUBLIC_PHOTO_BASE}/{car_id}/{name}" for name in saved]
+    return [f"{PUBLIC_PHOTO_BASE}/{car_id}/{name}" for name in keep]
 
 
 def remove_sold_car_photos(active_ids):
@@ -378,6 +448,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
+    load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
         Image is None or np is None or rembg_remove is None
     ):
@@ -424,6 +495,7 @@ def main():
             f"saved {len(photos)} photos | miles: {mileage}"
         )
 
+    save_rejected()
     with_photos = sum(1 for v in vehicles if v["photos"])
     print(f"\nBuilt {len(vehicles)} vehicles, {with_photos} with photos.")
 
