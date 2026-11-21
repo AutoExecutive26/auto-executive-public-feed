@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:06:44.863595+00:00",
+  "updated_at": "2026-11-21T15:44:32.560402+00:00",
   "count": 86,
   "vehicles": [
     {
@@ -9,13 +9,13 @@
       "make": "Acura",
       "model": "RL SH-AWD w/Navigation 3.5L",
       "mileage": 118527,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/1fc561c73f68-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/5b2143e06f6e-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/7e5b878a0d97-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/bd7f3bf78c66-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/c62a91877c14-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/4facf7abd395-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/5e2ab34bc7a1-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/55e1543687db-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/dde793925a78-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/3a0377bcd1c7-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -26,13 +26,13 @@
       "make": "Audi",
       "model": "A4",
       "mileage": 107857,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/126ec1c4a921-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/d6bd638d2496-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/0049a98a2415-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/96adf78c4e7b-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/3b31b632a45f-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/3f758eb4d70a-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/65c02b3bea30-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/130344db078c-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/bb894c3ae877-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/2962910f7cc8-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -43,13 +43,13 @@
       "make": "Audi",
       "model": "A4",
       "mileage": 70311,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/3311bfc83598-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/792a30e15e8a-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/8a7d0046005b-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/ac4de1cf6a28-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/7a485c586200-94.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/3e7d2235ef1b-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/db0e1ebcbd4e-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/db7375dce393-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/a56a88553442-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/f249b45b9b2f-82.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -62,11 +62,11 @@
       "mileage": 62557,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/c5e7d18683bc-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/55a1fb914a19-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/9088da828ec1-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/088c9bd8b1b0-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/d87c2a929f03-84.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/67a9ab6aa4e4-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/22213849b59c-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/8690621a431d-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/96a61224378b-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/be5072ae153b-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -79,11 +79,11 @@
       "mileage": 88479,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/ac85b3a5aad1-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/93a01ce6acd0-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/9e2aba1b4679-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/6b81c66c6539-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/878ee96211ee-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/060de9e61868-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/47b284b12cee-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/478fe9e019b6-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/7bd7dbf8189f-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/b61cf31d1386-87.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -96,11 +96,11 @@
       "mileage": 20730,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/5f9c629eaa96-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/f7b7456cc825-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/281178a0db62-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/95ccb07e34a7-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/d47caacfd368-95.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/3ceab54cdca3-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/d1c80b11f61b-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/30c2f6723ad7-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/645cff7cc87b-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/27fc7694427d-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -113,11 +113,11 @@
       "mileage": 121981,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/901e5b588f96-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/da0eba28e432-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/c96a566de0fd-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/3c155f0c0562-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/bbd78a2b25e8-98.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/8e891144d4d7-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/34a55074715f-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/9c6c72183881-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/398a571d7385-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/befccfb78480-85.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -128,13 +128,13 @@
       "make": "Cadillac",
       "model": "CTS",
       "mileage": 31541,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/66984afca72f-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/30c4faa3a133-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/9cf071e39216-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/125cbcad2341-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/92a5b7b2bfd4-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/b14897d328b1-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/a052fc1adae6-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/c672fd146bb1-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/5fe8a0cf70a9-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/086652ff0ede-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -145,13 +145,13 @@
       "make": "Cadillac",
       "model": "DeVille",
       "mileage": 81011,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/d585766bdf07-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/e6e97a03d8f8-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/20c9067d9d8e-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/15a86b9ea7f0-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/375585783707-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/fbf5c071ccbd-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/ac0ecedd74fa-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/588f460aa289-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/a5ea5a417260-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/c86b54ac6023-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -164,7 +164,9 @@
       "mileage": 97816,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-2913/ef9dcb327da5-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-2913/edfaab260cf6-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-2913/0961f6ba85d0-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-2913/182823885ca0-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -177,8 +179,11 @@
       "mileage": null,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/14b988ef94cb-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/c792017cfe37-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/7458c242a3ad-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/da6342ede8a8-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/39a6a6491c0d-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/60b392d023b9-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/92ba8c208575-88.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -191,11 +196,11 @@
       "mileage": 97595,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/450cb8f769db-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/7c6031622938-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/c658d3870c72-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/5ec6f6b11ea0-84.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/ba795a443274-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/cafefdff552c-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/f42a03fec784-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/f01f063bced2-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/94a998967c40-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/0f9733600c1f-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -208,11 +213,11 @@
       "mileage": 111942,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/a08bbb4e138a-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/ae209f01cea0-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/420f0163ca15-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/ff022ea34c27-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/135a5ceba276-85.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/ffec72a8951a-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/87a05263f8ba-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/9772495967f4-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/8045cd822aa7-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/9328bf19ee01-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -225,11 +230,11 @@
       "mileage": 72947,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/6ebe62c1ccfb-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/9e20669eedd1-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/7ae955427352-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/13bad71a84d0-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/0d8aa0b6df2d-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/2ec1acab1634-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/7dd365be4033-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/a31b6ba71c8b-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/35be77b39bf1-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/cf08e63ee79f-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -240,13 +245,13 @@
       "make": "Cadillac",
       "model": "XTS Premium Luxury AWD",
       "mileage": 117401,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/5a9b1bc948d9-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/ead37a2ffe33-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/ec9c5ca67c11-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/0516ed487f0d-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/0f7fc8c4008f-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/312384bc0560-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/41bf3a6b0e91-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/75036e32b909-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/a1a69cec194f-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/008491719b96-85.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -257,13 +262,13 @@
       "make": "Chevrolet",
       "model": "Cobalt",
       "mileage": 129796,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/9e521fcd7cd5-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/53da3b2d8fd3-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/bf77dc222345-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/c49b7c11cabc-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/bdb90a001df6-91.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/eabdf15ddd37-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/41976662e451-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/c930be0568ea-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/666a7c3039de-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/a6c60aeceadc-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -274,13 +279,13 @@
       "make": "Chevrolet",
       "model": "Cobalt",
       "mileage": 67011,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/8d7b9c114ca6-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b6e7d5de3a07-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/c2779c2afa97-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/6e3213c506f1-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/902095f1cb24-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/070cef1e60b6-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b23ce89998ed-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/52d575b10c81-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/89fd162a8ca3-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/fa32473881fc-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -293,11 +298,11 @@
       "mileage": 29097,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/b9e136a5c746-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/eff04afb1e8d-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/aead2b609135-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/95b3025bd44f-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/a81ae65eb536-96.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/3acdc62fe75c-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/dfbc70b243a8-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/8347d3145713-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/e1c6b6aeae67-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/f2b27c1a5cb0-85.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -310,11 +315,11 @@
       "mileage": 79633,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/ef91466fc012-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/8d5f31039ec7-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/6417340f1c33-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/04b631f303ed-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/d4032ad256d9-81.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/c03bf80cc50d-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/95ad63266c21-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/4dea20f9e362-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/c098b5506815-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/b408e462ed84-75.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -325,13 +330,13 @@
       "make": "Chevrolet",
       "model": "HHR",
       "mileage": 124169,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/1f760048f3cf-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/07e0b2ddbcea-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/3a61edc50f9c-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/fb2439d66c48-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/e8f86e89ba32-86.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/3cc94c7a6aec-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/87a82876dd7c-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/6c52e67bc02d-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/fc10157e2f24-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/6f1957369077-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -342,13 +347,13 @@
       "make": "Chevrolet",
       "model": "Impala",
       "mileage": 138934,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/111668ef2268-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/38e5c2c6f471-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/aaa865ef8f63-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/755bcc518b54-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/2bb9c64a9297-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/39ebabf8b874-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/67849db8ad37-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/2f694b4842c3-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/ef9dca7671be-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/e80fb6c45722-75.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -359,10 +364,10 @@
       "make": "Chevrolet",
       "model": "Impala Wagon – Classic Project / LS Swap Candidate",
       "mileage": null,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/440d106f30b5-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/5984043c68b6-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/64172d1ac2f8-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/0d88b2f05ccb-86.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -373,13 +378,13 @@
       "make": "Chevrolet",
       "model": "Malibu Limited",
       "mileage": 145070,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/ad0a921d4184-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/3ccf07bd96ec-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/aa7981b472e6-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/7ca3494e2048-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/76f98efac2d4-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/165ff1424121-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/b238e5162fb1-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/d3af5ec44a2c-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/d0ef8034e3ac-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/ec9122f3c891-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -392,11 +397,11 @@
       "mileage": 95901,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/e8a066ed26f3-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/130ee8589e40-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/4cb040ffa896-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/15718d3beca3-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/fda11fb4688b-94.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/97df1367e158-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/de92feff6aa2-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/fa1cfa0cab6f-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/0ec0552c257b-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/f951951c83d6-87.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -409,11 +414,11 @@
       "mileage": 40723,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/d78aa7dd82de-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/9de157c4091e-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/8f7d14391392-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/452530839294-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/e46de85efda1-88.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/da11a4629a63-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/7165be877774-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/daa336ee5038-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/ae5daf1955d3-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/d44fa0bb27e4-74.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -426,11 +431,11 @@
       "mileage": 115611,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/5252a458a5ad-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/23c0f51d06cc-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/49a2929691c2-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/0414f50baa9f-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/53c13838de01-94.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/8c5b51da3408-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/7d2298e2e990-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/b4b82ddd925c-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/11aca4801e4b-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/57f53895eb08-75.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -443,11 +448,11 @@
       "mileage": 75247,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/824d8238af5f-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/33f2d20763f9-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/3037c55bd7f7-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/3a3fa7698182-80.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/7c7eb260c23a-88.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/672572175a03-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/0ec22c7ab889-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/be485902c4ae-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/e0a7957d2546-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/3ea822e2c15e-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -460,11 +465,11 @@
       "mileage": 122891,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/25aee0841082-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/377ef3d71314-83.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/b11634ebd524-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/d7fd67a31a0a-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/3e89d1296b74-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/85712eea9f9d-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/281a72929abd-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/a32a92c82550-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/b3cd0497bbcb-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/a07e3404e57a-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -475,12 +480,13 @@
       "make": "Chevrolet",
       "model": "Spark LT Hatchback",
       "mileage": 54529,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/560a861e3884-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/9a8de9c964af-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/80cccc7efd71-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/9980b6dd42c6-76.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/fb301a50c1be-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/0be0c3a1bbdf-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/214599f37fee-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/4e00dac5d4ab-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/1db3b53a3076-88.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -491,13 +497,13 @@
       "make": "Chrysler",
       "model": "300",
       "mileage": 67762,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/0a7d6c6ee1ea-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/7c1e68052361-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/dafb69e50a75-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/4051da4629d0-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/40ed5d3610bb-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/f1971da180f8-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/b5e49fb6ff4f-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/e189fe32bda6-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/fc606d81baae-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/f72b8e304734-77.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -508,13 +514,13 @@
       "make": "Chrysler",
       "model": "300",
       "mileage": 123171,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/61eea47adff7-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/15216a3bd10d-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/a3ba21773521-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/9e6c98c0f775-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/f70085ca9361-84.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/eb5fa36cea65-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/1a2f9305d346-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/b4d57394e003-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/71317271c66a-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/710662906310-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -527,11 +533,11 @@
       "mileage": 59090,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/95e56322acd4-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/51d4274cb65c-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/de4a75f7e6c8-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/308369fbc0fa-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/70db66a9e1da-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/cc062d7ddf9b-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/7198a78e68b4-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/bfb1ee0e7924-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/ba0caeacd8a7-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/661b71644946-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -555,11 +561,11 @@
       "mileage": 51585,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/45ffdb352c6e-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/7cbaf244f59f-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/45bbfe5b1116-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/8e3f8acfa47e-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/03f69707e839-97.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/42c5eeaac778-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/25cd02cdac65-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/f91782a58eb7-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/1cb517c36926-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/230135ab7899-89.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -572,10 +578,11 @@
       "mileage": 85475,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/e31fbfaef3cd-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/1da120e3cf46-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/f4fb55707714-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/fd8906c39d40-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/95a23d258e58-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/c29f7a68fcf2-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/b7b5b937b99d-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/2732575c5b0f-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/5b96f0ac2dd3-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -588,11 +595,11 @@
       "mileage": 290376,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/26617a1acabd-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/e6afa47863b8-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/b106af870453-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/efe26b2e665a-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/ad1c9cd69484-87.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/763124e5e417-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/14f87c5a5c99-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/fe4459cc0c04-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/3a7c38e3821c-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/6cab0f8df32e-81.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -605,11 +612,11 @@
       "mileage": 187870,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/62c55b952ab3-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/45d20a52738c-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/c7de9c97ab15-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/20823ebb3b8e-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/847f4f7fe8ca-88.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/5330e5aadc7e-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/d98cc705eb6b-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/a619ed2ac95f-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/1dce354c2f37-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/459f257b8ea7-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -622,10 +629,11 @@
       "mileage": 204901,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/41d0560898c5-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/594722bc09d7-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/1b427e5d3e5b-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/ed9aa2c9969d-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/eb2092708fed-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/13c5114cf87c-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/8787f6ca3aa0-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/68a1bac3c360-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/91433a6764c6-88.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -638,11 +646,11 @@
       "mileage": 97278,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/6ee78641b400-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/15282ef59583-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/2f31419c2d3a-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/f7b743b30b4a-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/3e8eb12b7be4-84.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/932ff3f99b96-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/c7535e14ecd7-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/59b93890b96f-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/f0685d90b4db-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/6275e602256e-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -655,11 +663,11 @@
       "mileage": 103041,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/e02d51c731b1-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/4cadd7a4a528-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/9ea5ac6c4bb6-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/e7fd74eb9fcf-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/57c5f8e05030-85.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/4e0b7784a123-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/ab6a04352f0d-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/e1d690895e70-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/60fc73595419-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/69e6905f7999-86.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -672,8 +680,11 @@
       "mileage": null,
       "category": "RVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/1cea9420a53e-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/91e3da1fa0d7-88.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/4101f554f299-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/21f4bd3a679f-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/9f8cf41c3ab8-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/9d00b00bba1b-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/58d93563bbd7-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -686,10 +697,11 @@
       "mileage": 204092,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/9dd91e04f45e-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/6f4e85f1532d-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/6cc6baf77f1a-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/edf3edfc9688-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/31411fb319fe-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/96c08bf80a87-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/4a66225d4590-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/67d64f797e42-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/2dfb010e5ce3-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -702,11 +714,11 @@
       "mileage": 119505,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/4736b930327c-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/bb460cf7c0fc-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/0fd1391498f8-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/642481bf0b9a-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/67119c12874f-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/aa340ebeb2bf-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/cca8871fb1ba-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/bdc3f9ff29bb-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/b08111150c0e-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/b9ef186ee533-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -719,11 +731,11 @@
       "mileage": 148273,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/f98a79058566-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/557f3200ba3a-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/d8caab7f685b-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/8df15d285d92-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/c7338529a727-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/271381d55bff-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/37e02b35a54e-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/4701df3df8c5-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/0de138aab103-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/c8ebe5e9935e-85.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -736,11 +748,11 @@
       "mileage": 57575,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/56fb204912bb-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/6e1548e50f9b-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/ac63044e0540-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/5fa05c0a278a-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/4b188934f04f-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/a8fb8c947a3b-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/e523436e6427-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/c47267255f47-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/bc11b4f1bf23-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/45a0f4d4229b-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -753,11 +765,11 @@
       "mileage": 83709,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/cb8c94e7e66c-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/79df70b7cc86-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/9d10a57dbaa3-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/74e7a37ebd75-83.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/20e75eff227f-76.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/3b094f953f54-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/3b96ca9090af-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/7bb9fabd939a-75.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/c070e63f312c-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/2e9f6b9622e7-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -770,11 +782,11 @@
       "mileage": 114032,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/6c6cdf8a2c3a-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/badbb26e8128-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/8bdb36cc5900-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/9561ea6d1b48-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/ec6cfc23e7c0-86.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/9b7d92810145-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/58f7b8d695e3-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/79939240b033-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/060211001e7e-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/d84b392481d4-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -787,11 +799,11 @@
       "mileage": 70917,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/ebe4c8aacf2b-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/5e044910738d-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/4d9bd2299b15-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/4a9bee7bc3e4-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/f8af024b911f-80.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/797849f122fc-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/6884aab58468-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/17289437e8c2-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/77bb0a82cad2-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/91f928291bf4-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -815,10 +827,11 @@
       "mileage": 118644,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/0ca022f6f8b8-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/d02c00bbbda5-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/00e0f8c78ba5-82.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/537ac3d0294e-85.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/c0d86c8c572b-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/2033ef36d5dc-76.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/47339e1db07e-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/a391da9d7c12-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/5328a5bc5beb-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -831,10 +844,11 @@
       "mileage": 99570,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/4dd1a2b4d57d-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/2cfa0de6546c-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/525410c7e62c-80.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/3916c36dbbdb-84.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/be1f927dacba-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/a8ee4405a1e2-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/e571a51c48dc-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/e56366d8c1d4-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/2e805c43a6d4-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -847,10 +861,11 @@
       "mileage": 52179,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/31e50b224ce6-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/f2f07e0b7400-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/c4c0945f5b3f-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/cf9f9327131d-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/8f85cd968e02-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/c91aff798467-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/4e5494b62ef2-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/1a10ed6758a2-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/265268bb026b-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -863,11 +878,11 @@
       "mileage": 111492,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/c4ada3909879-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/bfc0af80e4f0-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/418fd5e3d5e8-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/55465367dc88-81.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/9409f4c9df2b-64.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/272bbea60f58-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/7dfe59a67518-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/99aef1f53037-76.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/bf7ea7279834-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/eabb5dde3faf-79.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -880,11 +895,11 @@
       "mileage": 124111,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/b6cf720a0352-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/496ba7e3b409-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/788c5112964d-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/55b5eb38fb50-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/d491ba1ceae9-94.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/d2cf72e59ddf-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/a3356b0a994d-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/e14a77b4a937-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/a202431ec487-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/ba648f62e7fc-88.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -897,11 +912,11 @@
       "mileage": 137394,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/f7494bf707ba-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/09e2d4c047dc-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/29e397a0e499-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/a233cb6ceb44-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/541457d7c1ad-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/4c0fa89041bc-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/a6e60aa72011-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/ca272daf35b4-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/87d5ab5def84-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/70c4f6846210-86.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -912,13 +927,13 @@
       "make": "Mazda",
       "model": "Mazda6",
       "mileage": 153667,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/b39a514a05f7-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/fff9e429c63d-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/fb94927ceb4a-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/354eb08e251e-83.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/0dc54f60edd8-85.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/5c71c4ccdaed-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/36abd2d36be4-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/642442bd87c9-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/985151903a6b-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/fa4f872b091e-81.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -931,11 +946,11 @@
       "mileage": 86481,
       "category": "Sports & Classics",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/9a98e3b3525a-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/789966d274cc-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/00cf7638e172-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/8d275af5d500-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/3c983e12ac7d-95.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/b895c2db89ae-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/0fbacc6fb5d4-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/615aeaf80078-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/77dde3f14939-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/910e0bc54eab-86.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -948,11 +963,11 @@
       "mileage": 71245,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/c27df7f08450-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/1e5195d346dd-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/4a4f554f6389-84.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/042f931cce5c-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/60a8dcec5d41-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/2241e014c812-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/2923bf0023fa-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/bbac8e6a5bbe-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/f1f1321cd956-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/7bacc9dbc525-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -963,13 +978,13 @@
       "make": "Mercedes-Benz",
       "model": "S Class",
       "mileage": 97017,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/97e6ff4be5e7-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/d5391035a1df-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/1c3e62712a39-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/f0880608722a-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/923e9b612941-91.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/32b368aa7b04-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/f01107d3c242-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/e60e93a2d5bb-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/6b4dfea8ac4a-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/3d36eebb5e7c-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -980,13 +995,13 @@
       "make": "Mercedes-Benz",
       "model": "S Class",
       "mileage": 84101,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/23a4c52a22b1-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/3239bb77d15a-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/5d3674739ebf-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/9364faa54233-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/f58524af0e42-97.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/414ea41cb78c-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/f3bba6949965-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/15b7707e44c9-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/122f58123c2d-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/a80434df44ab-88.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -997,12 +1012,13 @@
       "make": "Mercury",
       "model": "Cougar",
       "mileage": 78276,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/4f68862ff1d0-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/dbfaa5fb3b9d-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/4459f161e87a-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/b9ae9143a983-96.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/744f1e5d1da3-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/17101c256e9a-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/f4b0765ebd59-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/9b489a250b7a-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/06040f453291-87.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1015,11 +1031,11 @@
       "mileage": 135068,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/b17b4bf1d57b-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/6afb5dcd00d7-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/beec466a2568-82.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/4755c60e3a30-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/0de1ad5f4aff-87.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/049990f204d9-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/832a91266a23-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/fe8834ad2c17-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/f79b67ebf7d6-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/a72bcebb121e-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1032,11 +1048,11 @@
       "mileage": 107943,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/76d62d760efc-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/c183f2539cd4-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/a2dac58a124b-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/dea7057919fc-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/d458fe3b7351-85.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/d9839932748b-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/4dcbb70f2e4b-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/5be3c24e78c8-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/1a24cc82bd98-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/0f2787758c50-84.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1049,11 +1065,11 @@
       "mileage": 139411,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/93cc2d78b0cc-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/9fa7c652c693-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/6cb57a74c0b6-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/d4c61f99998f-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/d32a539f1007-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/7233827361e8-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/125e8526cf15-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/ac1c9da28f76-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/e90682029283-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/b0b98421a244-77.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1066,8 +1082,11 @@
       "mileage": 145759,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/9ea5ba7c42a2-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/6cf48262548b-99.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/47a392ed9745-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/356bf2985a89-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/07c2f0dd824b-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/82096415d0c9-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/438aa76921c9-86.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1080,11 +1099,11 @@
       "mileage": 234011,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/6c22b9c91934-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/4593a2760690-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/f19e46bac907-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/eae99f763fa6-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/eaed215f64ea-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/75569112ead8-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/0320937b339a-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/dad055f7360b-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/750cf18d3315-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/bfc038b19164-89.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1097,11 +1116,11 @@
       "mileage": 69631,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/20a5210d27ff-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/5a5fa707edcc-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/5473bcbf5612-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/65922ef77381-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/0bc4a4c024fd-90.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/cc764c404c5e-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/34fa4e94a526-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/143d76316d7b-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/57ad38bf82f4-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/60b6aaeaffe3-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1114,11 +1133,11 @@
       "mileage": 222471,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/263590ee0e0e-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/77fc3a8741f5-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/644a39df227b-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/b06d2d67e947-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/94b4c04d46eb-83.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/db19ef71bb27-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/d9b28a5e729e-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/ab5139a75660-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/c9cd41b4dde7-78.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/189a6fd26fb8-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1142,11 +1161,11 @@
       "mileage": 202171,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/4a1336a80525-97.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/56e4c9db6fa1-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/ed0149efee62-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/aca3e765fa2e-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/ad71cfb1672a-91.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/4e5480982eb6-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/e35540250eaa-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/98b101c79f34-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/ac2ae605c38c-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/e5232970a5ac-85.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1157,13 +1176,13 @@
       "make": "Toyota",
       "model": "Camry",
       "mileage": 19107,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/a81ae2fce979-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/b813a1526597-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/f10f938b392f-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/aba36ae7ca6a-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/3f668fbbf255-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/5652f39c43fc-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/e9c6e84e62b1-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/0fb80865e752-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/cdb3237b5ff5-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/0cbbf6ee28cd-81.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1174,13 +1193,13 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 232967,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/463db388de7f-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/cb1c453b6a88-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/376520d4da8c-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/4d88bd047e7b-88.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/44e1736ec43e-89.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/1b0f0d3f5129-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/8f472214fe26-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/85acf99280cb-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/ddbf6251045b-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/dc550afcc6fa-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1191,13 +1210,13 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 133547,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/96e8de1f144c-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/ced39194f82c-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/31cd12117729-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/e56f5ced3751-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/4e0bb6138bf4-96.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/63d286629ed8-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/c9428840e22d-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/1691a29a2e4b-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/47469e6a35a7-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/fbb30dfafc15-89.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1208,13 +1227,13 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 71311,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/d48a866a18b9-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/59b209fa4693-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/64b548bfea3b-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/2132114af5db-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/023ca9a6e23e-86.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/a3934bb62855-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/fe34362114a4-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/39904143fa7f-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/b8c602c01aa3-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/98216aec4b7c-87.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1227,10 +1246,11 @@
       "mileage": 172037,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/7d6f36265339-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/2923d615b87d-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/8cdc1f8b3b2f-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/cd5554d757c5-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/c5c9813eb17c-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/073713027140-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/4faa61a89426-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/83717e049517-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/aaddaa895b74-89.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1241,13 +1261,13 @@
       "make": "Toyota",
       "model": "Prius",
       "mileage": 105931,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/95dd1191ad5e-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/ae7513e3d8bb-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/996fd2f7617c-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/5b8ddb6a0382-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/2a5782fe3410-93.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/841dc3544143-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/753afd477632-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/a2808aeb103a-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/0aeb5ef48a20-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/b29c9853bb38-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1260,11 +1280,11 @@
       "mileage": 82548,
       "category": "SUVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/55ba8595eb5f-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/d6c3c22a66df-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/67cfb1cef4fe-83.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/72388451477c-81.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/b02334213434-87.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/5b3f5880d032-79.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/6c400b1007ba-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/07930bb1aa20-82.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/94fa5cf0d7fc-76.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/1695dfafdf2c-81.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1277,11 +1297,11 @@
       "mileage": 119421,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/d7e480b79582-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/ff1c9a158224-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/56c59e7169d3-87.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/906820880d7c-86.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/32b280205287-84.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/1e06036710d9-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/fdaf23dab38c-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/a2fc65f5b189-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/9ccc17f784eb-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/62560e006766-77.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1305,11 +1325,11 @@
       "mileage": 221997,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/2d8efe1c717b-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/730212c3907d-98.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/7f53ff3f7e5b-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/a630cb2c4811-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/510fdb7bf021-96.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/a80882c231a7-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/d274c4ea878e-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/4e155877cc6e-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/ac103b16dadf-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/755175422357-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1322,11 +1342,11 @@
       "mileage": 237069,
       "category": "Trucks",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/81812c8eb827-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/904ceb5785c3-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/f64dfb1fb770-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/89a341afd075-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/c4150ff3c168-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/658d7513f285-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/53441996c057-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/c7936ec7703a-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/10efefbdf3d0-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/6f2b3bc239d7-76.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1337,7 +1357,7 @@
       "make": "Volkswagen",
       "model": "Jetta",
       "mileage": 162097,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1348,13 +1368,13 @@
       "make": "Volkswagen",
       "model": "Passat",
       "mileage": 91074,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/1ddd2c526717-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/140da889a22a-92.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/45986d28bc28-93.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/4caad81a6117-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/0c2be79b5c43-87.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/2af87dba9c77-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/1fc971bae6a2-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/634a2e7183d1-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/eb2da0964890-87.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/478471ae465e-78.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1365,13 +1385,13 @@
       "make": "Volkswagen",
       "model": "Passat S 2.5L – Great Condition!",
       "mileage": 105901,
-      "category": "Cars",
+      "category": "Sedans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/1fa3f32d2b31-99.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/800275acdcab-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/bfe62c238c87-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/83e5b040d45c-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/a64ee235514d-92.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/57c12ac638b9-83.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/51488ee82e8a-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/aacf9a81b247-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/91b9f1e86935-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/c0b1ce4311f1-89.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1384,8 +1404,10 @@
       "mileage": null,
       "category": "Vans",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/6ffbae7b059b-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/c21e278cf4fe-87.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/1f7b20e50af7-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/81db15b0953a-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/7ddfd9baccc4-80.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/7b2c86919846-81.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1398,7 +1420,10 @@
       "mileage": 70606,
       "category": "RVs",
       "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/ef7a50514829-91.jpg"
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/0d95c548e87b-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/b24fa68f7404-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/d2b0d5e06ebc-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/c40d13937024-83.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     }
