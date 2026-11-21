@@ -614,6 +614,46 @@ def remove_sold_car_photos(active_ids):
             print(f"Removed photos for sold car {folder.name}")
 
 
+# ---- Categories for the filter buttons on your page ------------------------
+# The first matching group wins, so the order matters. Words are matched
+# against "make model" in lowercase. Anything that matches nothing is "Cars".
+CATEGORY_RULES = [
+    ("RVs", ["forest river", "winnebago", "motorhome", "camper"]),
+    ("Vans", ["pacifica", "town & country", "caravan", "odyssey", "sienna",
+              "transit", "promaster", "ram c/v", "vanagon", "sprinter",
+              "econoline", "express van"]),
+    ("Trucks", ["silverado", "sierra", "ram 1500", "ram 2500", "ram 3500",
+                "dodge ram", "f150", "f-150", "f250", "f350", "tacoma",
+                "tundra", "chevrolet s10", "ranger", "colorado", "frontier",
+                "titan", "ridgeline"]),
+    ("Sports & Classics", ["corvette", "f-type", "124 spider", "450 sl",
+                           "nova", "eldorado", "bentley", "bently", "scion tc",
+                           "mustang", "camaro", "challenger", "convertible"]),
+    ("SUVs", ["rdx", "q7", "sq5", "q5", "bmw x", "enclave", "escalade", "srx",
+              "equinox", "santa fe", "qx80", "qx60", "cherokee", "wrangler",
+              "sportage", "gx 460", "rx 350", "gla ", "murano", "rogue",
+              "fj cruiser", "4runner", "rav4", "ford flex", "cr-v", "bronco",
+              "explorer", "tahoe", "suburban", "yukon", "kia soul",
+              "highlander", "pathfinder", "compass", "patriot", "pilot"]),
+]
+# Fix any car the rules get wrong: "exact title": "Category"
+CATEGORY_OVERRIDES = {
+    # "2010 Chevrolet HHR": "SUVs",
+}
+
+
+def categorize(year, make, model, title):
+    if title in CATEGORY_OVERRIDES:
+        return CATEGORY_OVERRIDES[title]
+    text = f"{make} {model} ".lower()
+    for category, words in CATEGORY_RULES:
+        if any(w in text for w in words):
+            return category
+    if year and year <= 1975:
+        return "Sports & Classics"
+    return "Cars"
+
+
 def dump_debug(source_id, html):
     """Save a car page and list every picture-like or data-feed link in it."""
     Path("debug").mkdir(exist_ok=True)
@@ -646,7 +686,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
-    print("Script version: 9 (full photo gallery)")
+    print("Script version: 10 (categories)")
     print("Car detector:", "ON" if YOLO is not None else "OFF (not installed)")
     load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
@@ -698,6 +738,7 @@ def main():
                 "make": make,
                 "model": model,
                 "mileage": mileage,
+                "category": categorize(year, make, model, title),
                 "photos": photos,
                 "pricing_label": "CALL FOR PRICING",
             }
