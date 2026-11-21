@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T01:18:27.182106+00:00",
+  "updated_at": "2026-11-21T02:06:44.863595+00:00",
   "count": 86,
   "vehicles": [
     {
@@ -9,6 +9,7 @@
       "make": "Acura",
       "model": "RL SH-AWD w/Navigation 3.5L",
       "mileage": 118527,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/1fc561c73f68-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6224/5b2143e06f6e-96.jpg",
@@ -25,6 +26,7 @@
       "make": "Audi",
       "model": "A4",
       "mileage": 107857,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/126ec1c4a921-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5949/d6bd638d2496-90.jpg",
@@ -41,6 +43,7 @@
       "make": "Audi",
       "model": "A4",
       "mileage": 70311,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/3311bfc83598-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6128/792a30e15e8a-99.jpg",
@@ -57,6 +60,7 @@
       "make": "Audi",
       "model": "Q7",
       "mileage": 62557,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/c5e7d18683bc-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6088/55a1fb914a19-88.jpg",
@@ -73,6 +77,7 @@
       "make": "Audi",
       "model": "SQ5",
       "mileage": 88479,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/ac85b3a5aad1-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6043/93a01ce6acd0-96.jpg",
@@ -89,6 +94,7 @@
       "make": "Bently",
       "model": "Continental",
       "mileage": 20730,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/5f9c629eaa96-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5984/f7b7456cc825-87.jpg",
@@ -105,6 +111,7 @@
       "make": "BMW",
       "model": "X5",
       "mileage": 121981,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/901e5b588f96-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6044/da0eba28e432-97.jpg",
@@ -121,6 +128,7 @@
       "make": "Cadillac",
       "model": "CTS",
       "mileage": 31541,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/66984afca72f-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6204/30c4faa3a133-99.jpg",
@@ -137,6 +145,7 @@
       "make": "Cadillac",
       "model": "DeVille",
       "mileage": 81011,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/d585766bdf07-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5950/e6e97a03d8f8-94.jpg",
@@ -153,6 +162,7 @@
       "make": "Cadillac",
       "model": "Eldorado Convertible & Hardtop – 2 Vehicle Project Package",
       "mileage": 97816,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-2913/ef9dcb327da5-92.jpg"
       ],
@@ -165,6 +175,7 @@
       "make": "Cadillac",
       "model": "Eldorado Hardtop – Classic Cadillac Project",
       "mileage": null,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/14b988ef94cb-90.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3488/c792017cfe37-92.jpg"
@@ -178,6 +189,7 @@
       "make": "Cadillac",
       "model": "Escalade",
       "mileage": 97595,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/450cb8f769db-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6090/7c6031622938-97.jpg",
@@ -194,6 +206,7 @@
       "make": "Cadillac",
       "model": "Escalade",
       "mileage": 111942,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/a08bbb4e138a-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6089/ae209f01cea0-87.jpg",
@@ -210,6 +223,7 @@
       "make": "Cadillac",
       "model": "SRX",
       "mileage": 72947,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/6ebe62c1ccfb-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6129/9e20669eedd1-98.jpg",
@@ -226,6 +240,7 @@
       "make": "Cadillac",
       "model": "XTS Premium Luxury AWD",
       "mileage": 117401,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/5a9b1bc948d9-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6212/ead37a2ffe33-91.jpg",
@@ -242,6 +257,7 @@
       "make": "Chevrolet",
       "model": "Cobalt",
       "mileage": 129796,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/9e521fcd7cd5-88.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/53da3b2d8fd3-90.jpg",
@@ -258,6 +274,7 @@
       "make": "Chevrolet",
       "model": "Cobalt",
       "mileage": 67011,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/8d7b9c114ca6-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b6e7d5de3a07-91.jpg",
@@ -274,6 +291,7 @@
       "make": "Chevrolet",
       "model": "Corvette",
       "mileage": 29097,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/b9e136a5c746-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6039/eff04afb1e8d-96.jpg",
@@ -290,6 +308,7 @@
       "make": "Chevrolet",
       "model": "Equinox",
       "mileage": 79633,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/ef91466fc012-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5935/8d5f31039ec7-92.jpg",
@@ -306,6 +325,7 @@
       "make": "Chevrolet",
       "model": "HHR",
       "mileage": 124169,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/1f760048f3cf-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6162/07e0b2ddbcea-85.jpg",
@@ -322,6 +342,7 @@
       "make": "Chevrolet",
       "model": "Impala",
       "mileage": 138934,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/111668ef2268-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5936/38e5c2c6f471-87.jpg",
@@ -338,6 +359,7 @@
       "make": "Chevrolet",
       "model": "Impala Wagon – Classic Project / LS Swap Candidate",
       "mileage": null,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/440d106f30b5-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3610/5984043c68b6-89.jpg"
@@ -351,6 +373,7 @@
       "make": "Chevrolet",
       "model": "Malibu Limited",
       "mileage": 145070,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/ad0a921d4184-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6020/3ccf07bd96ec-89.jpg",
@@ -367,6 +390,7 @@
       "make": "Chevrolet",
       "model": "Nova",
       "mileage": 95901,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/e8a066ed26f3-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4980/130ee8589e40-99.jpg",
@@ -383,6 +407,7 @@
       "make": "Chevrolet",
       "model": "S10",
       "mileage": 40723,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/d78aa7dd82de-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6069/9de157c4091e-98.jpg",
@@ -399,6 +424,7 @@
       "make": "Chevrolet",
       "model": "S10",
       "mileage": 115611,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/5252a458a5ad-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6098/23c0f51d06cc-89.jpg",
@@ -415,6 +441,7 @@
       "make": "Chevrolet",
       "model": "Silverado 1500",
       "mileage": 75247,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/824d8238af5f-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5937/33f2d20763f9-91.jpg",
@@ -431,6 +458,7 @@
       "make": "Chevrolet",
       "model": "Silverado 2500",
       "mileage": 122891,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/25aee0841082-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5786/377ef3d71314-83.jpg",
@@ -447,6 +475,7 @@
       "make": "Chevrolet",
       "model": "Spark LT Hatchback",
       "mileage": 54529,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/560a861e3884-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6225/9a8de9c964af-99.jpg",
@@ -462,6 +491,7 @@
       "make": "Chrysler",
       "model": "300",
       "mileage": 67762,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/0a7d6c6ee1ea-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6114/7c1e68052361-93.jpg",
@@ -478,6 +508,7 @@
       "make": "Chrysler",
       "model": "300",
       "mileage": 123171,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/61eea47adff7-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5951/15216a3bd10d-87.jpg",
@@ -494,6 +525,7 @@
       "make": "Dodge",
       "model": "Grand Caravan",
       "mileage": 59090,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/95e56322acd4-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6049/51d4274cb65c-94.jpg",
@@ -510,6 +542,7 @@
       "make": "Dodge",
       "model": "Ram 1500",
       "mileage": 172901,
+      "category": "Trucks",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -520,6 +553,7 @@
       "make": "Fiat",
       "model": "124 Spider",
       "mileage": 51585,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/45ffdb352c6e-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6022/7cbaf244f59f-98.jpg",
@@ -536,6 +570,7 @@
       "make": "Ford",
       "model": "Bronco XLT 4WD – 5.8L V8",
       "mileage": 85475,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/e31fbfaef3cd-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3906/1da120e3cf46-92.jpg",
@@ -551,6 +586,7 @@
       "make": "Ford",
       "model": "F150",
       "mileage": 290376,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/26617a1acabd-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6170/e6afa47863b8-95.jpg",
@@ -567,6 +603,7 @@
       "make": "Ford",
       "model": "F250SD",
       "mileage": 187870,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/62c55b952ab3-90.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5970/45d20a52738c-92.jpg",
@@ -583,6 +620,7 @@
       "make": "Ford",
       "model": "F350SD",
       "mileage": 204901,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/41d0560898c5-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5908/594722bc09d7-89.jpg",
@@ -598,6 +636,7 @@
       "make": "Ford",
       "model": "Flex",
       "mileage": 97278,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/6ee78641b400-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5418/15282ef59583-92.jpg",
@@ -614,6 +653,7 @@
       "make": "Ford",
       "model": "Transit Connect",
       "mileage": 103041,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/e02d51c731b1-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6141/4cadd7a4a528-99.jpg",
@@ -630,6 +670,7 @@
       "make": "Forest",
       "model": "River NO Boundaries",
       "mileage": null,
+      "category": "RVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/1cea9420a53e-88.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5790/91e3da1fa0d7-88.jpg"
@@ -643,6 +684,7 @@
       "make": "Honda",
       "model": "CR-V LX 2.4L",
       "mileage": 204092,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/9dd91e04f45e-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6086/6f4e85f1532d-99.jpg",
@@ -658,6 +700,7 @@
       "make": "Hyundai",
       "model": "Santa Fe Sport",
       "mileage": 119505,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/4736b930327c-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6163/bb460cf7c0fc-89.jpg",
@@ -674,6 +717,7 @@
       "make": "Infiniti",
       "model": "QX80",
       "mileage": 148273,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/f98a79058566-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6180/557f3200ba3a-99.jpg",
@@ -690,6 +734,7 @@
       "make": "Jaguar",
       "model": "F-Type",
       "mileage": 57575,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/56fb204912bb-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6156/6e1548e50f9b-93.jpg",
@@ -706,6 +751,7 @@
       "make": "Jeep",
       "model": "Grand Cherokee L",
       "mileage": 83709,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/cb8c94e7e66c-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6050/79df70b7cc86-97.jpg",
@@ -722,6 +768,7 @@
       "make": "Jeep",
       "model": "Grand Cherokee Overland",
       "mileage": 114032,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/6c6cdf8a2c3a-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6205/badbb26e8128-88.jpg",
@@ -738,6 +785,7 @@
       "make": "Jeep",
       "model": "Wrangler",
       "mileage": 70917,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/ebe4c8aacf2b-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5954/5e044910738d-92.jpg",
@@ -754,6 +802,7 @@
       "make": "Kia",
       "model": "Soul",
       "mileage": 93621,
+      "category": "SUVs",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -764,6 +813,7 @@
       "make": "Kia",
       "model": "Soul",
       "mileage": 118644,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/0ca022f6f8b8-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5883/d02c00bbbda5-97.jpg",
@@ -779,6 +829,7 @@
       "make": "Kia",
       "model": "Soul",
       "mileage": 99570,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/4dd1a2b4d57d-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5941/2cfa0de6546c-98.jpg",
@@ -794,6 +845,7 @@
       "make": "Kia",
       "model": "Soul",
       "mileage": 52179,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/31e50b224ce6-94.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6131/f2f07e0b7400-87.jpg",
@@ -809,6 +861,7 @@
       "make": "Kia",
       "model": "Sportage",
       "mileage": 111492,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/c4ada3909879-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5914/bfc0af80e4f0-85.jpg",
@@ -825,6 +878,7 @@
       "make": "Lexus",
       "model": "GX 460 4WD",
       "mileage": 124111,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/b6cf720a0352-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6063/496ba7e3b409-94.jpg",
@@ -841,6 +895,7 @@
       "make": "Lexus",
       "model": "RX 350",
       "mileage": 137394,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/f7494bf707ba-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6206/09e2d4c047dc-98.jpg",
@@ -857,6 +912,7 @@
       "make": "Mazda",
       "model": "Mazda6",
       "mileage": 153667,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/b39a514a05f7-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6195/fff9e429c63d-88.jpg",
@@ -873,6 +929,7 @@
       "make": "MERCEDES-BENZ",
       "model": "450 SL",
       "mileage": 86481,
+      "category": "Sports & Classics",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/9a98e3b3525a-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5975/789966d274cc-97.jpg",
@@ -889,6 +946,7 @@
       "make": "Mercedes-Benz",
       "model": "GLA 250 4MATIC",
       "mileage": 71245,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/c27df7f08450-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6213/1e5195d346dd-98.jpg",
@@ -905,6 +963,7 @@
       "make": "Mercedes-Benz",
       "model": "S Class",
       "mileage": 97017,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/97e6ff4be5e7-93.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5866/d5391035a1df-96.jpg",
@@ -921,6 +980,7 @@
       "make": "Mercedes-Benz",
       "model": "S Class",
       "mileage": 84101,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/23a4c52a22b1-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6085/3239bb77d15a-90.jpg",
@@ -937,6 +997,7 @@
       "make": "Mercury",
       "model": "Cougar",
       "mileage": 78276,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/4f68862ff1d0-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/dbfaa5fb3b9d-92.jpg",
@@ -952,6 +1013,7 @@
       "make": "Nissan",
       "model": "Rogue",
       "mileage": 135068,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/b17b4bf1d57b-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5993/6afb5dcd00d7-97.jpg",
@@ -968,6 +1030,7 @@
       "make": "Ram",
       "model": "1500",
       "mileage": 107943,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/76d62d760efc-94.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6175/c183f2539cd4-91.jpg",
@@ -984,6 +1047,7 @@
       "make": "Ram",
       "model": "1500",
       "mileage": 139411,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/93cc2d78b0cc-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6207/9fa7c652c693-91.jpg",
@@ -1000,6 +1064,7 @@
       "make": "Ram",
       "model": "1500 ProMaster Vans",
       "mileage": 145759,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/9ea5ba7c42a2-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6168/6cf48262548b-99.jpg"
@@ -1013,6 +1078,7 @@
       "make": "Ram",
       "model": "2500",
       "mileage": 234011,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/6c22b9c91934-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6188/4593a2760690-97.jpg",
@@ -1029,6 +1095,7 @@
       "make": "Ram",
       "model": "3500 Laramie Crew Cab 4x4 Dually",
       "mileage": 69631,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/20a5210d27ff-94.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6214/5a5fa707edcc-89.jpg",
@@ -1045,6 +1112,7 @@
       "make": "Ram",
       "model": "C/V",
       "mileage": 222471,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/263590ee0e0e-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5547/77fc3a8741f5-90.jpg",
@@ -1061,6 +1129,7 @@
       "make": "Scion",
       "model": "tC",
       "mileage": 118671,
+      "category": "Sports & Classics",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1071,6 +1140,7 @@
       "make": "Toyota",
       "model": "4Runner",
       "mileage": 202171,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/4a1336a80525-97.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6051/56e4c9db6fa1-91.jpg",
@@ -1087,6 +1157,7 @@
       "make": "Toyota",
       "model": "Camry",
       "mileage": 19107,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/a81ae2fce979-90.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6155/b813a1526597-91.jpg",
@@ -1103,6 +1174,7 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 232967,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/463db388de7f-89.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5381/cb1c453b6a88-91.jpg",
@@ -1119,6 +1191,7 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 133547,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/96e8de1f144c-95.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5973/ced39194f82c-92.jpg",
@@ -1135,6 +1208,7 @@
       "make": "Toyota",
       "model": "Corolla",
       "mileage": 71311,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/d48a866a18b9-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6208/59b209fa4693-94.jpg",
@@ -1151,6 +1225,7 @@
       "make": "Toyota",
       "model": "FJ Cruiser",
       "mileage": 172037,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/7d6f36265339-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6126/2923d615b87d-89.jpg",
@@ -1166,6 +1241,7 @@
       "make": "Toyota",
       "model": "Prius",
       "mileage": 105931,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/95dd1191ad5e-91.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5712/ae7513e3d8bb-91.jpg",
@@ -1182,6 +1258,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "mileage": 82548,
+      "category": "SUVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/55ba8595eb5f-94.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5763/d6c3c22a66df-96.jpg",
@@ -1198,6 +1275,7 @@
       "make": "Toyota",
       "model": "Sienna SE Premium 8 Passenger",
       "mileage": 119421,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/d7e480b79582-98.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6215/ff1c9a158224-99.jpg",
@@ -1214,6 +1292,7 @@
       "make": "Toyota",
       "model": "Tacoma",
       "mileage": 197183,
+      "category": "Trucks",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1224,6 +1303,7 @@
       "make": "Toyota",
       "model": "Tacoma",
       "mileage": 221997,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/2d8efe1c717b-94.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6176/730212c3907d-98.jpg",
@@ -1240,6 +1320,7 @@
       "make": "Toyota",
       "model": "Tundra",
       "mileage": 237069,
+      "category": "Trucks",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/81812c8eb827-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6066/904ceb5785c3-90.jpg",
@@ -1256,6 +1337,7 @@
       "make": "Volkswagen",
       "model": "Jetta",
       "mileage": 162097,
+      "category": "Cars",
       "photos": [],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -1266,6 +1348,7 @@
       "make": "Volkswagen",
       "model": "Passat",
       "mileage": 91074,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/1ddd2c526717-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6084/140da889a22a-92.jpg",
@@ -1282,6 +1365,7 @@
       "make": "Volkswagen",
       "model": "Passat S 2.5L – Great Condition!",
       "mileage": 105901,
+      "category": "Cars",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/1fa3f32d2b31-99.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6095/800275acdcab-94.jpg",
@@ -1298,6 +1382,7 @@
       "make": "Volkswagen",
       "model": "Vanagon Passenger Van – 1.9L",
       "mileage": null,
+      "category": "Vans",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/6ffbae7b059b-90.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-3958/c21e278cf4fe-87.jpg"
@@ -1311,6 +1396,7 @@
       "make": "Winnebago",
       "model": "ERA Limited 170XL",
       "mileage": 70606,
+      "category": "RVs",
       "photos": [
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-4927/ef7a50514829-91.jpg"
       ],
