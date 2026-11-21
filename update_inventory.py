@@ -70,13 +70,16 @@ MAX_DOWNLOAD_BYTES = 8_000_000
 # Backdrop for every photo. Choose one:
 #   "blackgold" = gold glow in the middle fading to black at the edges
 #   "gold"      = solid gold look
-#   "none"      = keep the original photo scenery (not recommended)
-BACKGROUND_STYLE = "blackgold"
+#   "blur"      = keep the original photo, car stays sharp, the scenery is blurred
+#   "none"      = keep the original photo scenery untouched
+BACKGROUND_STYLE = "blur"
 CANVAS_W, CANVAS_H = 1000, 562       # matches the 16:9 cards on your page
 # A cutout is only used if the car fills between these shares of the photo.
 # This drops interior shots, close-ups and failed cutouts.
 MIN_CAR_SHARE, MAX_CAR_SHARE = 0.12, 0.75
-STYLE_VERSION = "v6"                 # bump to force every photo to be redone
+BLUR_RADIUS = 16           # how soft the scenery gets in "blur" style
+BLUR_DARKEN = 0.22         # 0-1: darkens the blurred scenery a little so the car pops
+STYLE_VERSION = "v8-blur"                 # bump to force every photo to be redone
 MAX_CANDIDATES = 12        # photos tried per car; the cleanest ones are kept
 MIN_SCORE = 40             # photos scoring below this (0-99) are dropped
 DETECTOR_MODEL = "yolov8m-seg.pt"   # finds each separate car in a photo
@@ -399,7 +402,8 @@ def replace_background(img, relaxed=False):
 
     car_px = int(mask.sum())
     share = car_px / mask.size
-    if not ((0.06 if relaxed else MIN_CAR_SHARE) <= share <= MAX_CAR_SHARE):
+    max_share = 0.95 if BACKGROUND_STYLE == "blur" else MAX_CAR_SHARE
+    if not ((0.06 if relaxed else MIN_CAR_SHARE) <= share <= max_share):
         return reject("car too small or too big in the frame")
 
     # Erase the dealer-logo corner; skip the photo if the car itself is there.
@@ -427,6 +431,35 @@ def replace_background(img, relaxed=False):
         sizes = ndimage.sum(core, labels, range(1, count + 1))
         main = labels == (int(np.argmax(sizes)) + 1)
         keep = ndimage.binary_dilation(main, iterations=ERODE_PX + 2) & mask
+
+    if BACKGROUND_STYLE == "blur":
+        # Car stays sharp in its original place; everything else is blurred.
+        if not keep.any():
+            return reject("empty cutout")
+        soft = Image.fromarray(np.where(keep, 255, 0).astype("uint8")).filter(
+            ImageFilter.GaussianBlur(1.5))
+        blurred = img.filter(ImageFilter.GaussianBlur(BLUR_RADIUS))
+        if BLUR_DARKEN > 0:
+            blurred = Image.blend(blurred, Image.new("RGB", img.size, (8, 8, 8)), BLUR_DARKEN)
+        out = Image.composite(img, blurred, soft)
+        ys_, xs_ = np.where(keep)
+        cx, cy = (int(xs_.min()) + int(xs_.max())) // 2, (int(ys_.min()) + int(ys_.max())) // 2
+        want = CANVAS_W / CANVAS_H
+        w_, h_ = out.size
+        if w_ / h_ > want:                       # too wide: trim the sides
+            nw = round(h_ * want)
+            left = min(max(0, cx - nw // 2), w_ - nw)
+            out = out.crop((left, 0, left + nw, h_))
+        else:                                    # too tall: trim top and bottom
+            nh = round(w_ / want)
+            top = min(max(0, cy - nh // 2), h_ - nh)
+            out = out.crop((0, top, w_, top + nh))
+        out = out.resize((CANVAS_W, CANVAS_H), Image.LANCZOS)
+        share_now = int(keep.sum()) / keep.size
+        score = int(max(MIN_SCORE + 5, min(99, 90 - 80 * abs(share_now - 0.4))))
+        if relaxed:
+            score = max(1, min(score, MIN_SCORE - 1))
+        return out.convert("RGB"), score
 
     removed = 1 - int(keep.sum()) / max(car_px, 1)
     if removed > MAX_REMOVED_SHARE and not relaxed:
@@ -616,7 +649,7 @@ def remove_sold_car_photos(active_ids):
 
 # ---- Categories for the filter buttons on your page ------------------------
 # The first matching group wins, so the order matters. Words are matched
-# against "make model" in lowercase. Anything that matches nothing is "Cars".
+# against "make model" in lowercase. Anything that matches nothing is "Sedans".
 CATEGORY_RULES = [
     ("RVs", ["forest river", "winnebago", "motorhome", "camper"]),
     ("Vans", ["pacifica", "town & country", "caravan", "odyssey", "sienna",
@@ -651,7 +684,7 @@ def categorize(year, make, model, title):
             return category
     if year and year <= 1975:
         return "Sports & Classics"
-    return "Cars"
+    return "Sedans"
 
 
 def dump_debug(source_id, html):
@@ -686,7 +719,7 @@ def main():
     print(f"Found {len(cars)} car links on the list page.")
     if Image is None:
         print("NOTE: Pillow is not installed, so photos will not be resized.")
-    print("Script version: 10 (categories)")
+    print("Script version: 13 (blurred scenery)")
     print("Car detector:", "ON" if YOLO is not None else "OFF (not installed)")
     load_photo_lists()
     if BACKGROUND_STYLE != "none" and (
