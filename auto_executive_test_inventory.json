@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T21:39:33.280009+00:00",
-  "count": 87,
+  "updated_at": "2026-11-21T01:18:27.182106+00:00",
+  "count": 86,
   "vehicles": [
     {
       "id": "ae-6224",
@@ -236,22 +236,6 @@
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-6109",
-      "title": "2006 Chevrolet Cobalt",
-      "year": 2006,
-      "make": "Chevrolet",
-      "model": "Cobalt",
-      "mileage": 67011,
-      "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/8d7b9c114ca6-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b6e7d5de3a07-91.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/c2779c2afa97-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/6e3213c506f1-95.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/902095f1cb24-92.jpg"
-      ],
-      "pricing_label": "CALL FOR PRICING"
-    },
-    {
       "id": "ae-6122",
       "title": "2006 Chevrolet Cobalt",
       "year": 2006,
@@ -264,6 +248,22 @@
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/bf77dc222345-90.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/c49b7c11cabc-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/bdb90a001df6-91.jpg"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6109",
+      "title": "2006 Chevrolet Cobalt",
+      "year": 2006,
+      "make": "Chevrolet",
+      "model": "Cobalt",
+      "mileage": 67011,
+      "photos": [
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/8d7b9c114ca6-91.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b6e7d5de3a07-91.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/c2779c2afa97-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/6e3213c506f1-95.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/902095f1cb24-92.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
@@ -942,22 +942,6 @@
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/dbfaa5fb3b9d-92.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/4459f161e87a-96.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5531/b9ae9143a983-96.jpg"
-      ],
-      "pricing_label": "CALL FOR PRICING"
-    },
-    {
-      "id": "ae-6092",
-      "title": "2019 Nissan Murano",
-      "year": 2019,
-      "make": "Nissan",
-      "model": "Murano",
-      "mileage": 70338,
-      "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6092/cdd75cb5f484-96.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6092/89e8b5391a69-84.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6092/bda42db175db-94.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6092/4cad4430fb01-90.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6092/bb5002e26ba5-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
