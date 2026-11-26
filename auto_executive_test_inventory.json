@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T19:15:37.868442+00:00",
+  "updated_at": "2026-11-26T01:22:30.126216+00:00",
   "count": 86,
   "vehicles": [
     {
@@ -543,13 +543,19 @@
     },
     {
       "id": "ae-5998",
-      "title": "1995 Dodge Ram 1500",
+      "title": "1995 Dodge Ram 1500 – Classic American Pickup",
       "year": 1995,
       "make": "Dodge",
-      "model": "Ram 1500",
+      "model": "Ram 1500 – Classic American Pickup",
       "mileage": 172901,
       "category": "Trucks",
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5998/fcb1e17c13f6-88.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5998/3c557efbd702-86.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5998/cc5bbf2cd242-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5998/435b80c0b1fc-81.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-5998/45ce05023bb7-84.jpg"
+      ],
       "pricing_label": "CALL FOR PRICING"
     },
     {
