@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T01:22:10.016066+00:00",
+  "updated_at": "2026-11-28T07:32:24.110016+00:00",
   "count": 84,
   "vehicles": [
     {
@@ -256,23 +256,6 @@
       "pricing_label": "CALL FOR PRICING"
     },
     {
-      "id": "ae-6109",
-      "title": "2006 Chevrolet Cobalt",
-      "year": 2006,
-      "make": "Chevrolet",
-      "model": "Cobalt",
-      "mileage": 67011,
-      "category": "Sedans",
-      "photos": [
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/070cef1e60b6-85.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b23ce89998ed-84.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/52d575b10c81-89.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/89fd162a8ca3-77.jpg",
-        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/fa32473881fc-80.jpg"
-      ],
-      "pricing_label": "CALL FOR PRICING"
-    },
-    {
       "id": "ae-6122",
       "title": "2006 Chevrolet Cobalt",
       "year": 2006,
@@ -286,6 +269,23 @@
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/c930be0568ea-89.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/666a7c3039de-77.jpg",
         "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6122/a6c60aeceadc-83.jpg"
+      ],
+      "pricing_label": "CALL FOR PRICING"
+    },
+    {
+      "id": "ae-6109",
+      "title": "2006 Chevrolet Cobalt",
+      "year": 2006,
+      "make": "Chevrolet",
+      "model": "Cobalt",
+      "mileage": 67011,
+      "category": "Sedans",
+      "photos": [
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/070cef1e60b6-85.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/b23ce89998ed-84.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/52d575b10c81-89.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/89fd162a8ca3-77.jpg",
+        "https://raw.githubusercontent.com/AutoExecutive26/auto-executive-public-feed/main/photos/ae-6109/fa32473881fc-80.jpg"
       ],
       "pricing_label": "CALL FOR PRICING"
     },
